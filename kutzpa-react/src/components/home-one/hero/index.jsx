@@ -11,9 +11,9 @@ function HeroSection() {
 						<HeroContent />
 					</div>
 					<div className="col-lg-4">
-						<FadeInRight>
+						{/* <FadeInRight>
 							<HeroThumbs />
-						</FadeInRight>
+						</FadeInRight> */}
 					</div>
 				</div>
 			</div>

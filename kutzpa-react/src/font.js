@@ -5,3 +5,5 @@ import "./assets/fonts/ClashGroteskSemibold.svg";
 import "./assets/fonts/ClashGroteskSemibold.ttf";
 import "./assets/fonts/ClashGroteskSemibold.woff";
 import "./assets/fonts/ClashGroteskSemibold.woff2";
+
+import "./assets/fonts/DelaGothicOne-Regular.ttf";

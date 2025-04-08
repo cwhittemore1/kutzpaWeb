@@ -12,20 +12,18 @@ function HeroContent() {
 				<FadeInStaggerTwoChildren>
 					<h1>
 						<span className="aximo-title-animation">
-							A creative
-							<img src={StarImg} alt="StarImg" />
+							Education first
 						</span>{" "}
-						design studio
+						by design
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
-						{`We're a creative design studio specializing in meeting the needs of the new generation.
-								We offer innovative and cutting-edge design solutions to help our clients stand out in
-								today's fast-paced.`}
+						{`Our animated explainer videos create clarity from complexity, powered by globally award-winning education and world-class design. Our animated explainer videos create clarity from complexity, powered by globally award-winning education and world-class design.`}
 					</p>
 				</FadeInStaggerTwoChildren>
-				<FadeInStaggerTwoChildren>
+				
+				{/* <FadeInStaggerTwoChildren>
 					<div className="aximo-hero-user-wrap">
 						<div className="aximo-hero-user-thumb">
 							<div className="aximo-hero-user-thumb-item">
@@ -42,14 +40,12 @@ function HeroContent() {
 							<p>Believed by more than a thousand people</p>
 						</div>
 					</div>
-				</FadeInStaggerTwoChildren>
+				</FadeInStaggerTwoChildren> */}
+
 				<FadeInStaggerTwoChildren>
 					<Link className="aximo-call-btn" to="/contact-us">
-						Book a free consultation <i className="icon-call"></i>
+						Book a free consultation
 					</Link>
-					<div className="aximo-hero-shape">
-						<img src={ShapeImg} alt="ShapeImg" />
-					</div>
 				</FadeInStaggerTwoChildren>
 			</FadeInStaggerTwo>
 		</div>

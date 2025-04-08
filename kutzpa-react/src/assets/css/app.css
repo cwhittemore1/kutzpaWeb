@@ -15,34 +15,39 @@
 
 **/
 :root {
-	--heading-color: #000;
+
+
+	--white: #ffffff;
+
+	--dark-bg: #060921;
+	--accent-bg: #7301FE;
+	--light-color1: #FFF9F2;
+	--white-color: var(--white);
+	--body-color: var(--white);
+	--heading-color: var(--white);
+
 	--heading-color2: #1b1b1b;
 	--heading-color3: #191931;
 	--heading-color4: #221f1a;
 	--heading-color5: #2c2c2c;
 	--heading-color6: #0b1040;
-	--body-color: #0c0c0c;
 	--accent-color: #bff747;
 	--white-smoke: #fdfde1;
-	--white-color: #ffffff;
 	--orange-color: #ff4612;
 	--orange-color2: #ff8064;
 	--corn-color: #f4b905;
 	--green-color: #073d30;
 	--green-color2: #02854c;
-	--light-color1: #f6f5ef;
 	--light-color2: #fefcfb;
 	--light-color3: #fff7ea;
 	--light-color4: #fffcf2;
 	--light-color5: #f3ede8;
 	--light-color6: #f8fcdd;
-	--dark-bg: #000000;
 	--dark-bg2: #2c2c2c;
 	--dark-bg3: #0b1040;
 	--white-bg: #ffffff;
 	--orange-bg: #ff4612;
 	--orange-bg2: #ff8064;
-	--accent-bg: #bff747;
 	--yellow-bg: #ffe757;
 	--corn-bg: #f4b905;
 	--blue-bg: #0000ff;
@@ -107,7 +112,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-weight: 400;
 	overflow-x: hidden;
-	background-color: var(--light-bg1);
+	background-color: var(--dark-bg);
 	counter-reset: my-sec-counter;
 	font-size: 18px;
 	line-height: 30px;
@@ -2571,9 +2576,8 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	width: 150px;
 	padding: 0;
 	line-height: 47.5px;
-	color: var(--heading-color) !important;
+	color: var(--white-color) !important;
 	border: 2px solid var(--heading-color);
-	box-shadow: 0px 4px 0px 0px var(--white-smoke);
 	background-color: var(--accent-bg);
 }
 .aximo-default-btn.aximo-header-btn:hover {
@@ -3560,8 +3564,8 @@ h1.post__title {
 
 .aximo-call-btn {
 	border-radius: 50px;
-	width: 350px;
-	padding: 13px 10px 13px 42px;
+	width: auto;
+	padding: 13px 26px;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 700;
@@ -3569,10 +3573,9 @@ h1.post__title {
 	position: relative;
 	text-align: left;
 	justify-content: space-between;
-	color: var(--heading-color) !important;
+	color: var(--white-color) !important;
 	border: 2px solid var(--dark-bg);
 	background-color: var(--accent-bg);
-	box-shadow: 0px 4px 0px 0px var(--white-smoke);
 	transition: all 0.4s;
 }
 @media (max-width: 400px) {
