@@ -12,14 +12,14 @@ function HeroContent() {
 				<FadeInStaggerTwoChildren>
 					<h1>
 						<span className="aximo-title-animation">
-							Education first
+							education first
 						</span>{" "}
 						by design
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
-						{`Our animated explainer videos create clarity from complexity, powered by globally award-winning education and world-class design. Our animated explainer videos create clarity from complexity, powered by globally award-winning education and world-class design.`}
+						{`Our animated explainer videos create clarity from complexity, powered by globally award-winning education and world-class design.`}
 					</p>
 				</FadeInStaggerTwoChildren>
 				

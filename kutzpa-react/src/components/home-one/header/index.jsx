@@ -16,7 +16,8 @@ function Header() {
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<DesktopNav>
-							<NavItem dropdown title="Demo">
+
+							{/* <NavItem dropdown title="Portfolio">
 								<Dropdown>
 									<DropdownItem url="/">Design Agency</DropdownItem>
 									<DropdownItem url="home-two">Startup Agency</DropdownItem>
@@ -26,9 +27,12 @@ function Header() {
 									<DropdownItem url="home-six">Interior Design Agency</DropdownItem>
 									<DropdownItem url="home-seven">Advertising agency</DropdownItem>
 								</Dropdown>
-							</NavItem>
-							<NavItem url="about-us">About Us</NavItem>
-							<NavItem dropdown title="Pages">
+							</NavItem> */}
+
+							<NavItem url="about-us">portfolio</NavItem>
+							<NavItem url="about-us">process</NavItem>
+
+							{/* <NavItem dropdown title="Pages">
 								<Dropdown>
 									<DropdownItem url="about-us">About Us</DropdownItem>
 									<DropdownItem url="pricing">Pricing</DropdownItem>
@@ -81,11 +85,13 @@ function Header() {
 									<DropdownItem url="blog-grid">Blog Grid</DropdownItem>
 									<DropdownItem url="single-blog">Blog Details</DropdownItem>
 								</Dropdown>
-							</NavItem>
-							<NavItem url="contact-us">Contact Us</NavItem>
+							</NavItem> */}
+							
+							<NavItem url="contact-us">services</NavItem>
+							<NavItem url="contact-us">contact us</NavItem>
 						</DesktopNav>
 					</div>
-					<HeaderButton />
+					{/* <HeaderButton /> */}
 
 					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
 				</nav>

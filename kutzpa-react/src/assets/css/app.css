@@ -18,9 +18,11 @@
 
 
 	--white: #ffffff;
+	--primo: #7301FE;
 
 	--dark-bg: #060921;
-	--accent-bg: #7301FE;
+	--accent-bg: var(--primo);
+	--accent-color: var(--primo);
 	--light-color1: #FFF9F2;
 	--white-color: var(--white);
 	--body-color: var(--white);
@@ -31,7 +33,6 @@
 	--heading-color4: #221f1a;
 	--heading-color5: #2c2c2c;
 	--heading-color6: #0b1040;
-	--accent-color: #bff747;
 	--white-smoke: #fdfde1;
 	--orange-color: #ff4612;
 	--orange-color2: #ff8064;
@@ -105,7 +106,7 @@ html {
 body {
 	height: 100% !important;
 	color: var(--body-color);
-	font-family: "Inter", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	vertical-align: baseline;
@@ -392,9 +393,11 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: "Syne", sans-serif;
+	font-family: "Dela Gothic One", sans-serif;
+
 	color: var(--heading-color);
-	font-weight: 700;
+	font-kerning: normal;
+	font-weight: 500;
 	margin: 0;
 }
 
@@ -2577,7 +2580,6 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	padding: 0;
 	line-height: 47.5px;
 	color: var(--white-color) !important;
-	border: 2px solid var(--heading-color);
 	background-color: var(--accent-bg);
 }
 .aximo-default-btn.aximo-header-btn:hover {
@@ -4514,7 +4516,6 @@ span.aximo-hero-shape-title2 {
 .aximo-counter-data {
 	padding-bottom: 24px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #333;
 }
 .aximo-counter-data:last-child {
 	padding: 0;
@@ -5666,7 +5667,7 @@ a.aximo-service-icon:hover {
 	transform: translate(-50%, -50%);
 }
 .aximo-video-popup.play-btn1 {
-	box-shadow: 0 4px 0 0 var(--white-smoke);
+	/* box-shadow: 0 4px 0 0 var(--white-smoke); */
 }
 .aximo-video-popup.play-btn1:hover {
 	box-shadow: none;

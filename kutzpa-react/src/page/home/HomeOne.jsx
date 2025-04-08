@@ -16,7 +16,7 @@ import Team4Img from "../../assets/images/team/team4.png";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "ASDF",
 		description:
 			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
 		icon: "icon-design-tools",
@@ -75,13 +75,8 @@ function HomeOne() {
 	return (
 		<>
 			<Hero />
-			<Services services={servicesData} />
 			<About />
 			<Projects />
-			<WhyChooseUs />
-			<Testimonial />
-			<AutoSlider />
-			<Teams teams={teamsData} />
 		</>
 	);
 }

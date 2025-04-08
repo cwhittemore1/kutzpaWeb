@@ -11,9 +11,6 @@ function Services({ services }) {
 						We provide effective
 						<span className="aximo-title-animation">
 							design solutions
-							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star2Img" />
-							</span>
 						</span>
 					</h2>
 				</div>

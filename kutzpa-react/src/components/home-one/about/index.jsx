@@ -13,9 +13,9 @@ function About() {
 							<h2>
 								<span className="aximo-title-animation">
 									We make your
-									<span className="aximo-title-icon">
+									{/* <span className="aximo-title-icon">
 										<img src={Star2Img} alt="Star2Img" />
-									</span>
+									</span> */}
 								</span>{" "}
 								business stand out
 							</h2>

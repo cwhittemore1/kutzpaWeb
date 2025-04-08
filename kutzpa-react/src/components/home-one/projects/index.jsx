@@ -72,12 +72,9 @@ function Projects() {
 			<div className="container">
 				<div className="aximo-section-title center light">
 					<h2>
-						Have a wide range of
+						Explore a range of
 						<span className="aximo-title-animation">
-							creative projects
-							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star2Img" />
-							</span>
+							example use cases
 						</span>
 					</h2>
 				</div>
