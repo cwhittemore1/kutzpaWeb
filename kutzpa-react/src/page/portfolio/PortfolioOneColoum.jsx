@@ -3,7 +3,7 @@ import PortfolioList from "../../components/portfolio/one/PortfolioList";
 function PortfolioOneColumn() {
 	return (
 		<>
-			<BreadCrumb title="Portfolio One Column" />
+			<BreadCrumb title="portfolio" />
 			<PortfolioList />
 		</>
 	);

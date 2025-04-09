@@ -2121,7 +2121,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 
 .aximo-footer-bottom {
 	padding: 35px 0;
-	border-top: 1px solid #16142a;
+	border-top: 1px solid rgba(255, 255, 255, .5);
 }
 @media (max-width: 991px) {
 	.aximo-footer-bottom {
@@ -3281,8 +3281,8 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 }
 
 .aximo-breadcrumb {
-	text-align: center;
-	padding: 195px 0 130px;
+	text-align: end;
+	padding: 195px 0 64px;
 	background-color: var(--dark-bg);
 }
 @media (max-width: 991px) {
@@ -3303,7 +3303,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 h1.post__title {
 	margin-bottom: 50px;
-	color: var(--white-smoke);
+	color: var(--white-color);
 }
 @media (max-width: 1400px) {
 	h1.post__title {
@@ -3312,14 +3312,14 @@ h1.post__title {
 }
 
 .breadcrumbs ul li {
-	font-size: 21px;
+	font-size: 16px;
 	font-weight: 700;
 	line-height: 1;
 	z-index: 0;
 	padding: 0 20px;
 	position: relative;
 	display: inline-block;
-	color: var(--accent-color);
+	color: var(--white-color);
 }
 @media (max-width: 767px) {
 	.breadcrumbs ul li {
@@ -3350,7 +3350,8 @@ h1.post__title {
 }
 .breadcrumbs ul li a {
 	font-weight: 400;
-	color: #fdfde1;
+	color: var(--white-color);
+	opacity: 50%;
 }
 
 .aximo-navigation {
@@ -6326,7 +6327,7 @@ img.aximo-video-circle {
 }
 .aximo-social-icon ul li a i {
 	transition: all 0.4s;
-	color: var(--white-smoke);
+	color: var(--white-color);
 }
 .aximo-social-icon ul li a:hover i {
 	color: var(--heading-color);
@@ -7529,8 +7530,8 @@ img.aximo-video-circle {
 	position: absolute;
 	transition: all 0.4s;
 	transform: translate(-50%, -50%);
-	background-color: var(--accent-bg);
-	border: 2px solid var(--dark-bg);
+	background-color: var(--dark-bg);
+	color: var(--white-color);
 }
 @media (max-width: 767px) {
 	.aximo-project-link {
@@ -7545,7 +7546,7 @@ img.aximo-video-circle {
 }
 
 .aximo-project-single-section {
-	padding: 130px 0 0;
+	padding: 64px 0 0;
 }
 @media (max-width: 991px) {
 	.aximo-project-single-section {
@@ -7572,7 +7573,8 @@ img.aximo-video-circle {
 
 .aximo-project-info {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: start;
 }
 .aximo-project-info-wrap {
 	display: flex;
@@ -7612,8 +7614,8 @@ img.aximo-video-circle {
 }
 
 .aximo-project-single-wrap {
-	padding-bottom: 130px;
-	border-bottom: 1px solid #e6e6e6;
+	padding-top: 64px;
+	padding-bottom: 64px;
 }
 @media (max-width: 991px) {
 	.aximo-project-single-wrap {
@@ -8334,7 +8336,12 @@ a.aximo-connect-login img {
 	padding-bottom: 80px;
 }
 .aximo-section-video {
-	padding-bottom: 200px;
+	padding-bottom: 164px;
+}
+@media (max-width: 767px) {
+	.aximo-section-video {
+		padding-bottom: 80px;
+	}
 }
 
 .aximo-section-title.center {

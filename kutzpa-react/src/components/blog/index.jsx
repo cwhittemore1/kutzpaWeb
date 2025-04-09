@@ -17,7 +17,7 @@ const blogData = [
 		content:
 			"As a first-generation immigrant, money and networks weren’t given to me. So instead of going through the front door, I tried a back door approach",
 		category: "Marketing",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog1Img,
 	},
 	{
@@ -26,7 +26,7 @@ const blogData = [
 		content:
 			"Making more money with the help of AI tools. — Up until now, I’ve shared two posts discussing the AI tools I’ve incorporated into my",
 		category: "Business",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog2Img,
 	},
 	{
@@ -35,7 +35,7 @@ const blogData = [
 		content:
 			"Tech debt part two — a deeper dive into product and business debt and the ripple effect on organizations — in part one",
 		category: "Technology",
-		date: "June 18, 2024",
+		date: "June 18, 2025",
 		img: Blog3Img,
 	},
 ];

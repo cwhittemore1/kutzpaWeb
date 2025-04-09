@@ -7,7 +7,7 @@ function BreadCrumb({ title }) {
 				<nav className="breadcrumbs">
 					<ul>
 						<li>
-							<Link to="/">Home</Link>
+							<Link to="/">home</Link>
 						</li>
 						<li aria-current="page"> {title}</li>
 					</ul>

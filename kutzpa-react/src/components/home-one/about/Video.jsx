@@ -14,7 +14,7 @@ function Video() {
 				channel="youtube"
 				youtube={{ autoplay: 0 }}
 				isOpen={isOpen}
-				videoId="Vx2aLNgGoAE"
+				videoId="hBlORhbSMrU"
 				onClose={() => setOpen(false)}
 			/>
 			<button className="aximo-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>

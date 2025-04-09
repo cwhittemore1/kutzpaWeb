@@ -18,25 +18,15 @@ function About() {
 				</div>
 				<div className="aximo-section-title">
 					<div className="row">
-						{/* <div className="col-lg-6">
-							<h2>
-								<span className="aximo-title-animation">
-									education first
-								</span>{" "}
-								by design
-							</h2>
-						</div> */}
-						<div className="col-lg-6 offset-lg-3 d-flex align-items-center">
-							<p>
-								<h2>Education first, by design</h2>
-								
-								<br></br>
-								<br></br>
-
+						<div className="col-lg-10 d-flex align-items-center vstack">
+							<div className="row col-lg-8 text-center pb-5">						
+								<h2 className=" ">Education first,<br></br> by design</h2>
+							</div>
+							<div className="row col-lg-8 text-center">								
 								We work closely with our clients to know their objectives, target audience, unique
 								needs, and practical design solutions.We work closely with our clients to know their objectives, target audience, unique
 								needs, and practical design solutions.
-							</p>
+							</div>
 						</div>
 					</div>
 				</div>

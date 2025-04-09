@@ -31,7 +31,7 @@ function Header() {
 
 							<NavItem url="portfolio-one">portfolio</NavItem>
 							<NavItem url="home-three">process</NavItem>
-							<NavItem url="contact-us">contact us</NavItem>
+							<NavItem url="contact-us">book a call</NavItem>
 						</DesktopNav>
 					</div>
 					{/* <HeaderButton /> */}
