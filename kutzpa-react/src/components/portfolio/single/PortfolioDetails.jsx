@@ -1,7 +1,4 @@
 import Single1Img from "../../../assets/images/portfolio/p_single.png";
-import Single2Img from "../../../assets/images/portfolio/p_single2.png";
-import Star2Img from "../../../assets/images/v1/star2.png";
-import FadeInRight from "../../animation/FadeInRight";
 import FadeInUp from "../../animation/FadeInUp";
 const projectResolveSteps = [
 	{
@@ -45,9 +42,8 @@ function PortfolioDetails() {
 					<div className="row justify-content-center">
 						<div className="col-lg-5">
 							<h3>
-								How we initiate and
 								<span className="aximo-title-animation">
-									resolve the project
+									The brief
 								</span>
 							</h3>
 							<p>
@@ -56,19 +52,47 @@ function PortfolioDetails() {
 							</p>
 						</div>
 						<div className="col-lg-5">
-							<div className="aximo-default-content m-right-gap">
-								<h3>
-									How we initiate and
-									<span className="aximo-title-animation">
-										resolve the project
-									</span>
-								</h3>
-								<p>
-									The project began when a leading technology identified a market need for an
-									innovative and energy-efficient smart home thermostat.
-								</p>
-							</div>
+							<h3>
+								<span className="aximo-title-animation">
+									The delivery
+								</span>
+							</h3>
+							<p>
+								The project began when a leading technology identified a market need for an
+								innovative and energy-efficient smart home thermostat.
+							</p>
 						</div>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-lg-6">
+					<FadeInUp className="aximo-project-single-thumb">
+						<img src={Single1Img} alt="Single" />
+					</FadeInUp>
+					</div>
+					<div className="col-lg-6">
+					<FadeInUp className="aximo-project-single-thumb">
+						<img src={Single1Img} alt="Single" />
+						</FadeInUp>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-lg-12">
+					<FadeInUp className="aximo-project-single-thumb">
+						<img src={Single1Img} alt="Single" />
+						</FadeInUp>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-lg-6">
+					<FadeInUp className="aximo-project-single-thumb">
+						<img src={Single1Img} alt="Single" />
+					</FadeInUp>
+					</div>
+					<div className="col-lg-6">
+					<FadeInUp className="aximo-project-single-thumb">
+						<img src={Single1Img} alt="Single" />
+						</FadeInUp>
 					</div>
 				</div>
 			</div>

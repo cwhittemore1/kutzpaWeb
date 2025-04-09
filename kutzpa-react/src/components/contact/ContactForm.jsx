@@ -15,21 +15,17 @@ function ContactForm() {
 	return (
 		<div className="section aximo-section-padding">
 			<div className="container">
-				<div className="row">
+				{/* <div className="row">
 					<div className="col-lg-8">
 						<div className="aximo-section-title">
 							<h2>
 								<span className="aximo-title-animation">
-									Contact us for a
-									<span className="aximo-title-icon">
-										<img src={Star2Img} alt="Star" />
-									</span>
+									Set up a free 30m consultation
 								</span>
-								personal experience
 							</h2>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
@@ -61,7 +57,7 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<Field label="Enter Phone Number" error={errors.phone}>
+									<Field label="Budget" error={errors.phone}>
 										<input
 											{...register("phone", { required: "Phone is required." })}
 											type="phone"
@@ -71,7 +67,7 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<label>Write your message here...</label>
+									<label>Tell us about your project</label>
 									<textarea name="textarea"></textarea>
 								</div>
 								<button id="aximo-main-btn" type="submit">

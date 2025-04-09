@@ -4,34 +4,34 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
+			title: "Why work with Kutzpa?",
 			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
+			title: "What types of videos do we offer?",
 			text: "Explaining the design agency's process from initial concept to final delivery helps clients understand what to expect.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
+			title: "How much does a video cost?",
 			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What's your design process like?",
+			title: "How long does it take?",
 			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
+			title: "How does feedback and revisions work?",
 			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
+			title: "Who owns the rights to the videos?",
 			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
 		},
 	],
@@ -42,12 +42,8 @@ function TwoColumnFaq() {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						These FAQs help
 						<span className="aximo-title-animation">
-							clients learn about us
-							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star" />
-							</span>
+							FAQs
 						</span>
 					</h2>
 				</div>

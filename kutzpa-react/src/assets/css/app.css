@@ -3282,7 +3282,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 .aximo-breadcrumb {
 	text-align: end;
-	padding: 195px 0 64px;
+	padding: 195px 0 0px;
 	background-color: var(--dark-bg);
 }
 @media (max-width: 991px) {
@@ -7560,10 +7560,8 @@ img.aximo-video-circle {
 }
 
 .aximo-project-single-thumb {
-	border-radius: 30px;
 	overflow: hidden;
-	margin-bottom: 40px;
-	border: 5px solid var(--heading-color);
+	margin-bottom: 24px;
 }
 @media (max-width: 991px) {
 	.aximo-project-single-thumb {
@@ -7614,8 +7612,8 @@ img.aximo-video-circle {
 }
 
 .aximo-project-single-wrap {
-	padding-top: 64px;
-	padding-bottom: 64px;
+	padding-top: 100px;
+	padding-bottom: 164px;
 }
 @media (max-width: 991px) {
 	.aximo-project-single-wrap {
@@ -7642,9 +7640,7 @@ img.aximo-video-circle {
 }
 
 .aximo-project-single-thumb2 {
-	border-radius: 17px;
 	overflow: hidden;
-	border: 5px solid var(--heading-color);
 }
 @media (max-width: 991px) {
 	.aximo-project-single-thumb2 {
