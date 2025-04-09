@@ -31,7 +31,7 @@ function Footer() {
 						</div>
 						<div className="aximo-footer-info-item">
 							<h5>Send us an email:</h5>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:hello@kutzpa.com">hello@kutzpa.com</a>
 						</div>
 					</div>
 				</div>

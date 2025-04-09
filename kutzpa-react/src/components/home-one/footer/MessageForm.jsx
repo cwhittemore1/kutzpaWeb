@@ -37,9 +37,6 @@ function MessageForm() {
 				</Field>
 			</div>
 			<div className="aximo-form-field">
-				<input type="text" placeholder="+088-234-6849" />
-			</div>
-			<div className="aximo-form-field">
 				<textarea name="textarea" placeholder="Write your message here..."></textarea>
 			</div>
 			<button id="aximo-submit-btn" type="submit">

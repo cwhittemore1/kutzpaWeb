@@ -11,10 +11,8 @@ function HeroContent() {
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
 					<h1>
-						<span className="aximo-title-animation">
-							education first
-						</span>{" "}
-						by design
+						<span className="aximo-title-animation">explainer videos</span>{' '}
+						<span >people actually watch</span>
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>

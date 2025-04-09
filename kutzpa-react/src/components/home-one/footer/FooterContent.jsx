@@ -6,9 +6,6 @@ function FooterContent() {
 			<h2>
 				<span className="aximo-title-animation">
 					Lets start a
-					<span className="aximo-title-icon">
-						<img src={Star2Img} alt="Star2Img" />
-					</span>
 				</span>
 				<br />
 				project together
@@ -20,17 +17,8 @@ function FooterContent() {
 			<div className="aximo-info-wrap">
 				<div className="aximo-info">
 					<ul>
-						<li>Give us a call:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
-						</li>
-					</ul>
-				</div>
-				<div className="aximo-info">
-					<ul>
-						<li>Send us an email:</li>
-						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:admin@mlutzpa.com">hello@kutzpa.com</a>
 						</li>
 					</ul>
 				</div>
@@ -58,9 +46,6 @@ function FooterContent() {
 						</a>
 					</li>
 				</ul>
-			</div>
-			<div className="aximo-hero-shape aximo-footer-shape">
-				<img src={Shape1Img} alt="Shape1Img" />
 			</div>
 		</div>
 	);
