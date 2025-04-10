@@ -11,12 +11,14 @@ function HeroContent() {
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
 					<h1>
-						<span className="aximo-title-animation">Videos people actaully watch</span>
+						<span className="aximo-title-animation">education first by design.</span>
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
-						{`Kutzpa designs and develops animated explainer videos powered by globally award-winning education and world-class design.`}
+						{`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
+						 Every video we make is rooted in how people actually absorb and remember information. If your message needs to land and last, we’re your team.
+						`}
 					</p>
 				</FadeInStaggerTwoChildren>
 				
