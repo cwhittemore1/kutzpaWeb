@@ -58,7 +58,7 @@ function About() {
 								</div>
 							</FadeInUp>
 							<div className="aximo-extra-mt text-right">
-								<Link className="aximo-default-btn green-btn pill shadow-white" to="/contact-us">
+								<Link className="aximo-default-btn green-btn pill shadow-white" to="/book-a-call">
 									<span>Read Our Story</span>
 								</Link>
 							</div>

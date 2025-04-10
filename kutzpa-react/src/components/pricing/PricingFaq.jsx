@@ -24,7 +24,7 @@ function PricingFaq() {
 									collection of frequently asked questions.
 								</p>
 							</div>
-							<Link className="aximo-errors-btn contact-us" to="/contact-us">
+							<Link className="aximo-errors-btn book-a-call" to="/book-a-call">
 								Contact us{" "}
 								<span>
 									<img src={ArrowRightImg} alt="arrow right" />

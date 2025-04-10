@@ -13,7 +13,7 @@ function FooterTop() {
 			</div>
 			<div className="col-lg-5 d-flex align-items-center">
 				<div className="aximo-title-btn">
-					<Link className="aximo-default-btn blue-btn2" to="/contact-us">
+					<Link className="aximo-default-btn blue-btn2" to="/book-a-call">
 						<span className="aximo-label-up">Explore Our Plans</span>
 						<span className="aximo-label-up">Explore Our Plans</span>
 					</Link>

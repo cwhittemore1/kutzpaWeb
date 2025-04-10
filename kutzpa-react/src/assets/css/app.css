@@ -1959,10 +1959,10 @@ header.aximo-header-section {
 header.aximo-header-section.sticky-menu {
 	box-shadow: 0 4px 80px rgba(0, 0, 0, 0.06);
 }
-
+/* 
 header.aximo-header-section.aximo-header3 {
-	border-bottom: 1px solid var(--heading-color);
-}
+	border-bottom: 1px solid var(--dark-bg);
+} */
 
 header.aximo-header-section.aximo-header3.sticky-menu {
 	border-bottom: 1px solid var(--light-bg3);
@@ -2119,9 +2119,20 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	}
 }
 
+.hello {
+	font-size: 2.5em;
+	color: var(--white);
+}
+
+@media (max-width: 991px) {
+	.hello {
+		font-size: 1.25em;
+	}
+}
+
 .aximo-footer-bottom {
-	padding: 35px 0;
-	border-top: 1px solid rgba(255, 255, 255, .5);
+	padding: 0px 0px 64px 0px;
+	/* border-top: 1px solid rgba(255, 255, 255, .5); */
 }
 @media (max-width: 991px) {
 	.aximo-footer-bottom {
@@ -2144,6 +2155,10 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	border-top: 1px solid rgba(11, 16, 64, 0.1);
 }
 
+
+.aximo-footer-logo a img {
+	height: 100px;
+}
 @media (max-width: 991px) {
 	.aximo-footer-logo {
 		text-align: center;
@@ -2151,11 +2166,13 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	}
 }
 
-.aximo-copywright.one {
+/* .aximo-copywright.one {
 	text-align: right;
-}
+} */
 .aximo-copywright.one p {
-	color: #999;
+	color: var(--white);
+	opacity: 50%;
+	font-size: 12px;
 }
 .aximo-copywright.two p {
 	color: var(--heading-color2);
@@ -2212,6 +2229,10 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 
 .aximo-hero-shape.aximo-footer-shape {
 	bottom: 10%;
+}
+
+.aximo-footer-section {
+	padding: 0px 1em;
 }
 
 .aximo-footer-section2 {
@@ -2802,6 +2823,7 @@ textarea::placeholder {
 @media (max-width: 991px) {
 	.aximo-form-wrap {
 		margin-top: 50px;
+		text-align: center;
 	}
 }
 .aximo-form-wrap h4 {
@@ -3878,7 +3900,6 @@ h1.post__title {
 	font-size: 124px;
 	margin-bottom: 30px;
 	letter-spacing: normal;
-	font-family: "Familjen Grotesk", sans-serif;
 }
 @media (max-width: 1669px) {
 	.aximo-hero-content3 h1 {
@@ -6305,8 +6326,8 @@ img.aximo-video-circle {
 }
 
 .aximo-social-icon ul li {
-	margin: 0 3px;
-	display: inline-block;
+	margin: 0;
+	/* display: inline-block; */
 }
 .aximo-social-icon ul li:first-child {
 	margin-left: 0;
@@ -6315,15 +6336,15 @@ img.aximo-video-circle {
 	margin-right: 0;
 }
 .aximo-social-icon ul li a {
-	width: 34px;
-	height: 34px;
+	/* width: 34px;
+	height: 34px; */
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	border-radius: 100%;
+	justify-content: left;
 	transition: all 0.4s;
-	border: 1px solid var(--white-color);
 	background-color: var(--dark-bg);
+	color: var(--white);
+	opacity: 50%;
 }
 .aximo-social-icon ul li a i {
 	transition: all 0.4s;
@@ -6333,9 +6354,12 @@ img.aximo-video-circle {
 	color: var(--heading-color);
 }
 .aximo-social-icon ul li a:hover {
-	background-color: var(--accent-bg);
+	/* background-color: var(--accent-bg);
 	box-shadow: 0 2px 0 0 var(--white-smoke);
-	border: 1px solid var(--dark-bg);
+	border: 1px solid var(--dark-bg); */
+	color: var(--white);
+	opacity: 1;
+	font-weight: 700;
 }
 .aximo-social-icon.social-large ul li a {
 	width: 45px;
@@ -8582,7 +8606,7 @@ a.aximo-connect-login img {
 }
 @media (max-width: 991px) {
 	.aximo-default-content {
-		text-align: center;
+		/* text-align: center; */
 		max-width: 620px;
 		margin: 0 auto;
 	}
@@ -9308,12 +9332,12 @@ a.aximo-connect-login img {
 	background-image: url(../images/icon/circle.svg);
 }
 
-.aximo-errors-btn.contact-us {
+.aximo-errors-btn.book-a-call {
 	width: 200px;
 	margin: 50px 0 0;
 }
 @media (max-width: 991px) {
-	.aximo-errors-btn.contact-us {
+	.aximo-errors-btn.book-a-call {
 		margin: 0 auto;
 		margin-top: 30px;
 	}

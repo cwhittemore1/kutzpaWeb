@@ -3,7 +3,7 @@ function FooterBottom() {
 	return (
 		<>
 			<div className="row align-items-center">
-				<div className="col-lg-6">
+				<div className="col-lg-1">
 					<div className="aximo-footer-logo">
 						<a href="">
 							<img src={BadgeWhiteImg} alt="Logo" />
@@ -11,9 +11,9 @@ function FooterBottom() {
 					</div>
 				</div>
 				<div className="col-lg-6">
-					<div className="aximo-copywright one">
-						<p> &copy; Copyright 2025, All Rights Reserved by Kutzpa</p>
-					</div>
+					<span className="aximo-copywright one">
+						<p> Copyright &copy; Kutzpa 2025</p>
+					</span>
 				</div>
 			</div>
 		</>

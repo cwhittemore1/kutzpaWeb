@@ -20,7 +20,7 @@ function HeroContent() {
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<div className="aximo-hero-btn-wrap m-0">
-					<Link className="aximo-default-btn blue-btn2" to="/contact-us">
+					<Link className="aximo-default-btn blue-btn2" to="/book-a-call">
 						<span className="aximo-label-up">Get In Touch</span>
 						<span className="aximo-label-up">Get In Touch</span>
 					</Link>

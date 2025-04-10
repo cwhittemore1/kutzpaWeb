@@ -11,7 +11,7 @@ function HeroContent() {
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
 					<h1>
-						<span className="aximo-title-animation">videos people actually watch</span>
+						<span className="aximo-title-animation">Videos people actaully watch</span>
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
@@ -40,10 +40,10 @@ function HeroContent() {
 				</FadeInStaggerTwoChildren> */}
 
 				<FadeInStaggerTwoChildren>
-					<Link className="aximo-call-btn" to="/contact-us">
+					<Link className="aximo-call-btn" to="/book-a-call">
 						Book a consultation
 					</Link>
-					{/* <Link className="aximo-call-btn outlined-btn" to="/contact-us">
+					{/* <Link className="aximo-call-btn outlined-btn" to="/book-a-call">
 						Check out our portfolio
 					</Link> */}
 				</FadeInStaggerTwoChildren>

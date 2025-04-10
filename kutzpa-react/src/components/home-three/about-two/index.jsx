@@ -2,7 +2,7 @@ import CheckImg from "../../../assets/images/v3/check.svg";
 import Shape1Img from "../../../assets/images/v3/shape1.png";
 import Thumb2Img from "../../../assets/images/v3/thumb2.png";
 import FadeInRight from "../../animation/FadeInRight";
-function AboutTwo() {
+function AboutThree() {
 	return (
 		<div className="section aximo-section-padding6 overflow-hidden">
 			<div className="container">
@@ -16,8 +16,9 @@ function AboutTwo() {
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">
-						<div className="aximo-default-content familjen-grotesk">
-							<h2>Increase revenue with custom SEO</h2>
+						<div className="aximo-default-content">
+						<h2>02.</h2>
+						<h3>Story & Storyboard</h3>
 							<p>
 								Our SEO agency will help you reach new audiences, increase your website performance, and
 								accelerate your reputation.
@@ -46,4 +47,4 @@ function AboutTwo() {
 	);
 }
 
-export default AboutTwo;
+export default AboutThree;

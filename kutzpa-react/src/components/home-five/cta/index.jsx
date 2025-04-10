@@ -12,7 +12,7 @@ function Cta() {
 						presence. We guarantee top-notch quality.
 					</p>
 					<FadeInUp>
-						<Link className="aximo-default-btn corn-btn pill" to="/contact-us">
+						<Link className="aximo-default-btn corn-btn pill" to="/book-a-call">
 							<span className="aximo-label-up">Get In Touch</span>
 							<span className="aximo-label-up">Get In Touch</span>
 						</Link>

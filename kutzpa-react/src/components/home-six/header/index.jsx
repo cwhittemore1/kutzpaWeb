@@ -81,7 +81,7 @@ function Header() {
 									<DropdownItem url="single-blog">Blog Details</DropdownItem>
 								</Dropdown>
 							</NavItem>
-							<NavItem url="contact-us">Contact Us</NavItem>
+							<NavItem url="book-a-call">Contact Us</NavItem>
 						</DesktopNav>
 					</div>
 					<HeaderButton />

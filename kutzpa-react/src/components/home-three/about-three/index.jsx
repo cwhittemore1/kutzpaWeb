@@ -18,7 +18,7 @@ function About() {
 					</div>
 					<div className="col-lg-6 offset-lg-1">
 						<div className="aximo-default-content">
-							<h2>01.</h2>
+							<h2>03.</h2>
 							<h3>Consult & Strategy</h3>
 							<p>
 								We are a leading SEO company dedicated to helping brand grow their online presence &

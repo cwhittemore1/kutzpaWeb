@@ -174,7 +174,7 @@ export const menuItemsData = [
 		],
 	},
 	{
-		title: "Book a call",
+		title: "Contact Us",
 		url: "book-a-call",
 	},
 ];

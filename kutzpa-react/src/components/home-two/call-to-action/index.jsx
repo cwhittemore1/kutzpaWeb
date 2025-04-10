@@ -9,7 +9,7 @@ function CallToAction() {
 				<div className="aximo-cta-wrap">
 					<h2>Join us on your path to future success</h2>
 					<FadeInUp>
-						<Link className="aximo-default-btn" to="/contact-us">
+						<Link className="aximo-default-btn" to="/book-a-call">
 							<span className="aximo-label-up">Contact Us</span>
 							<span className="aximo-label-up">Contact Us</span>
 						</Link>

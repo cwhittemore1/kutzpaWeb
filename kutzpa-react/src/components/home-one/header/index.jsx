@@ -30,8 +30,8 @@ function Header() {
 							</NavItem> */}
 
 							<NavItem url="portfolio-one">portfolio</NavItem>
-							<NavItem url="home-three">process</NavItem>
-							<NavItem url="contact-us">book a call</NavItem>
+							<NavItem url="process">process</NavItem>
+							<NavItem url="book-a-call">book a call</NavItem>
 						</DesktopNav>
 					</div>
 					{/* <HeaderButton /> */}

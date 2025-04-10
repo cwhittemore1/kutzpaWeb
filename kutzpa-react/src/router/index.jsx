@@ -10,7 +10,7 @@ import LayoutTwo from "../components/layout/LayoutTwo.jsx";
 import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
-import ContactUs from "../page/ContactUs";
+import ContactUs from "../page/ContactUs.jsx";
 import Pricing from "../page/Pricing";
 import Reset from "../page/auth/ResetPassword.jsx";
 import SignIn from "../page/auth/SignIn";
@@ -23,7 +23,7 @@ import HomeFour from "../page/home/HomeFour.jsx";
 import HomeOne from "../page/home/HomeOne.jsx";
 import HomeSeven from "../page/home/HomeSeven.jsx";
 import HomeSix from "../page/home/HomeSix.jsx";
-import HomeThree from "../page/home/HomeThree.jsx";
+import Process from "../page/home/Process.jsx";
 import HomeTwo from "../page/home/HomeTwo.jsx";
 import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
@@ -50,11 +50,15 @@ export const router = createBrowserRouter([
 						element: <HomeOne />,
 					},
 					{
+						path: "/process",
+						element: <Process />,
+					},
+					{
 						path: "/about-us",
 						element: <AboutUs />,
 					},
 					{
-						path: "/contact-us",
+						path: "/book-a-call",
 						element: <ContactUs />,
 					},
 					{
@@ -117,88 +121,88 @@ export const router = createBrowserRouter([
 					},
 				],
 			},
-			{
-				path: "/",
-				element: <LayoutTwo />,
-				children: [
-					{
-						path: "/home-two",
-						element: <HomeTwo />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutThree />,
-				children: [
-					{
-						path: "/home-three",
-						element: <HomeThree />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutFour />,
-				children: [
-					{
-						path: "/home-four",
-						element: <HomeFour />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutFive />,
-				children: [
-					{
-						path: "/home-five",
-						element: <HomeFive />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutSix />,
-				children: [
-					{
-						path: "/home-six",
-						element: <HomeSix />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutSeven />,
-				children: [
-					{
-						path: "/home-seven",
-						element: <HomeSeven />,
-					},
-				],
-			},
-			{
-				path: "/",
-				element: <LayoutEight />,
-				children: [
-					{
-						path: "/coming-soon",
-						element: <CommingSoon />,
-					},
-					{
-						path: "/reset-password",
-						element: <Reset />,
-					},
-					{
-						path: "/sign-up",
-						element: <SignUp />,
-					},
-					{
-						path: "/sign-in",
-						element: <SignIn />,
-					},
-				],
-			},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutTwo />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-two",
+		// 				element: <HomeTwo />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutThree />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-three",
+		// 				element: <HomeThree />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutFour />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-four",
+		// 				element: <HomeFour />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutFive />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-five",
+		// 				element: <HomeFive />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutSix />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-six",
+		// 				element: <HomeSix />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutSeven />,
+		// 		children: [
+		// 			{
+		// 				path: "/home-seven",
+		// 				element: <HomeSeven />,
+		// 			},
+		// 		],
+		// 	},
+		// 	{
+		// 		path: "/",
+		// 		element: <LayoutEight />,
+		// 		children: [
+		// 			{
+		// 				path: "/coming-soon",
+		// 				element: <CommingSoon />,
+		// 			},
+		// 			{
+		// 				path: "/reset-password",
+		// 				element: <Reset />,
+		// 			},
+		// 			{
+		// 				path: "/sign-up",
+		// 				element: <SignUp />,
+		// 			},
+		// 			{
+		// 				path: "/sign-in",
+		// 				element: <SignIn />,
+		// 			},
+		// 		],
+		// 	},
 		],
 	},
 ]);

@@ -20,7 +20,7 @@ function Hero() {
 					</p>
 					<FadeInStaggerTwo className="aximo-hero-btn-wrap center">
 						<FadeInStaggerTwoChildren>
-							<Link className="aximo-default-btn pill corn-btn" to="/contact-us">
+							<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
 								<span className="aximo-label-up">Let's Talk</span>
 								<span className="aximo-label-up">Let's Talk</span>
 							</Link>

@@ -27,7 +27,7 @@ function HeaderButton() {
 						</li>
 					</ul>
 				</div>
-				<Link className="aximo-default-btn pill aximo-header-btn yellow-btn" to="/contact-us">
+				<Link className="aximo-default-btn pill aximo-header-btn yellow-btn" to="/book-a-call">
 					<span className="aximo-label-up">Talk to an expert</span>
 					<span className="aximo-label-up">Talk to an expert</span>
 				</Link>

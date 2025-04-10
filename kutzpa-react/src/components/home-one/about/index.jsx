@@ -22,7 +22,7 @@ function About() {
 							<div className="row col-lg-8 text-center pb-5">						
 								<h2 className=" ">Education first,<br></br> by design</h2>
 							</div>
-							<div className="row col-lg-8 text-center">								
+							<div className="row col-lg-8 text-center px-2">								
 								We work closely with our clients to know their objectives, target audience, unique
 								needs, and practical design solutions.We work closely with our clients to know their objectives, target audience, unique
 								needs, and practical design solutions.

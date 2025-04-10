@@ -25,7 +25,7 @@ function About() {
 								transformation ensure the business meets every standard.
 							</p>
 							<FadeInUp className="aximo-btn-wrap">
-								<Link className="aximo-default-btn pill corn-btn" to="/contact-us">
+								<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
 									<span className="aximo-label-up">Explore more</span>
 									<span className="aximo-label-up">Explore more</span>
 								</Link>
