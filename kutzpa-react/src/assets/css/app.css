@@ -3326,10 +3326,17 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 h1.post__title {
 	margin-bottom: 50px;
 	color: var(--white-color);
+	font-size: 7em;
 }
 @media (max-width: 1400px) {
 	h1.post__title {
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	h1.post__title {
+		font-size: 64px;
 	}
 }
 
@@ -3472,7 +3479,7 @@ h1.post__title {
 }
 @media (max-width: 1399px) {
 	.aximo-hero-content {
-		max-width: 630px;
+		/* max-width: 630px; */
 	}
 }
 @media (max-width: 991px) {
@@ -8831,6 +8838,8 @@ a.aximo-connect-login img {
 .aximo-title-animation {
 	position: relative;
 	display: inline-block;
+	font-size: 1em;
+	line-height: 1.2;
 }
 
 .aximo-title-shape {
@@ -9739,6 +9748,10 @@ a.post-read-more:hover img {
 
 .widget.aximo_recent_posts_Widget .post-date {
 	margin-bottom: 10px;
+}
+
+.post__title h1 {
+	font-size: 100px;
 }
 
 .post-item .post-title {
