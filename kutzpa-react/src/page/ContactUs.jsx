@@ -12,7 +12,8 @@ function ContactUs() {
 	return (
 		<>
 			<BreadCrumb title="book a call" />
-			<ContactForm />
+			{/* <ContactForm /> */}
+			<button className="aximo-default-btn pill corn-btn">Click ME</button>
 			<TwoColumnFaq />
 		</>
 	);

@@ -7,8 +7,8 @@ function PortfolioCard({ portfolio: { title, description, img } }) {
 			<div className="aximo-project-thumb3">
 				<img src={img} alt={title} />
 
-				<Link to="/single-portfolio" className="aximo-project-link">
-					<i className="far fa-hand-point-right fa-2x"></i>
+				<Link to="/single-portfolio" className="aximo-project-link project-link-text">
+					view
 				</Link>
 			</div>
 			<div className="aximo-project-data3">

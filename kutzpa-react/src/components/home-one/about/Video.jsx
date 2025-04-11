@@ -19,9 +19,11 @@ function Video() {
 			/>
 			<button className="aximo-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
 				<img src={PlayBtnImg} alt="PlayBtnImg" />
+
 			</button>
 		</FadeInUp>
 	);
 }
 
 export default Video;
+ 

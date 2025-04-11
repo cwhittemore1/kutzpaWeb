@@ -5,16 +5,16 @@ import Star2Img from "../../../assets/images/v1/star2.png";
 import FadeInStagger from "../../animation/FadeInStagger";
 import PortfolioCard from "./PortfolioCard";
 const portfolioListData = [
-	{
-		id: crypto.randomUUID(),
-		title: "Ventura",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
-		img: Portfolio1Img,
-	},
+	// {
+	// 	id: crypto.randomUUID(),
+	// 	title: "Ventura",
+	// 	description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+	// 	img: Portfolio1Img,
+	// },
 	{
 		id: crypto.randomUUID(),
 		title: "Kutzpa",
-		description: "Creating or refreshing a companys logo and developing a cohesive visual identity.",
+		description: "A comprehensive look into our brand, identity, & blueprint",
 		img: Portfolio2Img,
 	},
 ];

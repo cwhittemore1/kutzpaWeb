@@ -16,19 +16,18 @@ function About() {
 						<AboutCounter />
 					</div> */}
 				</div>
-				<div className="aximo-section-title">
-					<div className="row">
-						<div className="col-lg-10 d-flex align-items-center vstack">
-							<div className="row col-lg-8 text-center pb-5">						
-								<h2 className=" ">Education first,<br></br> by design</h2>
-							</div>
-							<div className="row col-lg-8 text-center px-2">								
-								We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.
-							</div>
+				<div className="px-4">
+					<div className="row justify-content-center">
+						<div className="col-lg-6 col-sm-12 pb-4">						
+							<h2 className=" ">people connect with what they understand</h2>
 						</div>
-					</div>
+						<div className="col-lg-6 col-sm-12">								
+							<p>Explainer videos are the most popular form of video marketing, with 98% of people having seen one and most preferring video over text.
+							</p>
+							<p>Kutzpa is uniquely positioned to deliver standout explainers as the only studio led by globally awarded experts in both education and design, backed by 13 years of studying how people think, learn, and remember. We're a hands-on team. When you hire us, you work directly with us - no subcontractors, no handoffs. Just our full attention and expertise on every project! 
+							</p>
+						</div>
+				</div>
 				</div>
 			</div>
 		</div>

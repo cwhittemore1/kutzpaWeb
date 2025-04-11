@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import CheckImg from "../../../assets/images/v3/check.svg";
 import Shape2Img from "../../../assets/images/v3/shape2.png";
 import Thumb1Img from "../../../assets/images/v3/thumb1.png";
 import FadeInLeft from "../../animation/FadeInLeft";
 import FadeInUp from "../../animation/FadeInUp";
-function About() {
+import CheckImg from "../../../assets/images/v3/check.svg";
+
+function AboutFive() {
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -19,18 +20,16 @@ function About() {
 					</div>
 					<div className="col-lg-6 offset-lg-1">
 						<div className="aximo-default-content">
-							<h2>01.</h2>
-							<h3>Consult & Strategy</h3>
+							<h2>05.</h2>
+							<h3>Delivery & Handoff</h3>
 							<p>
-								We kick things off with a deep-dive remote consultation, getting to know your goals, wishlist, and big-picture vision. What message needs to land? Who’s watching? What’s gonna make this video unforgettable?
-							</p>
-							<p>
-								We’ll dig into your audience, analyze competitors, ideate, and explore the best way to make your message click. After contract signing, we gather your brand assets and start laying the groundwork for a video that’s uniquely YOU.
+								After revision changes are made, your video is ready to roll. We’ll export it in the format you need and package it up for a smooth handoff. If your project includes multiple versions (like social clips or alternate aspect ratios), we’ll take care of that too.
+								Need tips on how to launch it? We’ll share implementation insights to help you make the most of your NEW video.
 							</p>
 							<div className="aximo-list-icon">
 								<ul>
 									<li>
-										<img src={CheckImg} alt="CheckImg" /> Pets Encouraged!
+										<img src={CheckImg} alt="CheckImg" /> Pending reception of final payment
 									</li>
 								</ul>
 							</div>
@@ -42,4 +41,4 @@ function About() {
 	);
 }
 
-export default About;
+export default AboutFive;

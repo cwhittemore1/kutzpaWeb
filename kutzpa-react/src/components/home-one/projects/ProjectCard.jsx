@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function ProjectCard({ project: { title, description, img } }) {
+function ProjectCard({ project: { title, subtitle, description, meta, img } }) {
 	return (
 		<div className="swiper-slide">
 			<div className="aximo-project-thumb">
@@ -7,9 +7,11 @@ function ProjectCard({ project: { title, description, img } }) {
 				<div className="aximo-project-wrap">
 					<div className="aximo-project-data">
 						<Link to="/single-portfolio">
-							<h3>{title}</h3>
+							<h3><span>{title}</span></h3>
 						</Link>
-						<p>{description}</p>
+						<p><span>{subtitle}</span></p>
+						<p className="slider-description"><span>{description}</span></p>
+						<p><span className="meta">{meta}</span></p>
 					</div>
 					{/* <Link className="aximo-project-icon" to="/single-portfolio">
 						<svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">

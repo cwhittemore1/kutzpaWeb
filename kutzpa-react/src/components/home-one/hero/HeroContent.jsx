@@ -4,6 +4,8 @@ import StarImg from "../../../assets/images/v1/star.png";
 import User1Img from "../../../assets/images/v1/user1.png";
 import User2Img from "../../../assets/images/v1/user2.png";
 import User3Img from "../../../assets/images/v1/user3.png";
+import FadeInUp from "../../animation/FadeInUp";
+
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/FadeInStaggerTwo";
 function HeroContent() {
 	return (
@@ -11,13 +13,17 @@ function HeroContent() {
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
 					<h1>
-						<span className="aximo-title-animation">education first by design.</span>
+						<span className="aximo-title-animation">education first, <br></br> by design.</span>
+
+						{/* <span className="aximo-title-animation">education</span>{' '}
+						<span className="aximo-title-animation">first</span><br></br>{' '}
+						<span className="aximo-title-animation">by design</span> */}
 					</h1>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
 						{`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
-						 Every video we make is rooted in how people actually absorb and remember information. If your message needs to land and last, we’re your team.
+						 Every video we make is rooted in how people actually absorb and remember information. 
 						`}
 					</p>
 				</FadeInStaggerTwoChildren>
@@ -42,9 +48,17 @@ function HeroContent() {
 				</FadeInStaggerTwoChildren> */}
 
 				<FadeInStaggerTwoChildren>
-					<Link className="aximo-call-btn" to="/book-a-call">
+					{/* <Link className="aximo-call-btn" to="/book-a-call">
 						Book a consultation
-					</Link>
+					</Link> */}
+
+					<FadeInUp className="aximo-btn-wrap">
+						<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
+							<span className="aximo-label-up">book a call</span>
+							<span className="aximo-label-up">We can't wait to meet you!</span>
+						</Link>
+					</FadeInUp>
+
 					{/* <Link className="aximo-call-btn outlined-btn" to="/book-a-call">
 						Check out our portfolio
 					</Link> */}

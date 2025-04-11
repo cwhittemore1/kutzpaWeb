@@ -2,7 +2,7 @@ import CheckImg from "../../../assets/images/v3/check.svg";
 import Shape1Img from "../../../assets/images/v3/shape1.png";
 import Thumb2Img from "../../../assets/images/v3/thumb2.png";
 import FadeInRight from "../../animation/FadeInRight";
-function AboutThree() {
+function AboutFour() {
 	return (
 		<div className="section aximo-section-padding6 overflow-hidden">
 			<div className="container">
@@ -17,11 +17,11 @@ function AboutThree() {
 					</div>
 					<div className="col-lg-6">
 						<div className="aximo-default-content">
-						<h2>02.</h2>
-						<h3>Story & Storyboard</h3>
+						<h2>04.</h2>
+						<h3>Production</h3>
 							<p>
-								Every great video starts with a solid story. We craft a message that’s clear, engaging, and built to stick. Then, we sketch out a mid-fidelity grayscale storyboard to map out the visuals, pacing, and key moments. Think of a storyboard like a blueprint for your video. You’ll see the structure before we dive into full design, and we’ll refine it together to make sure every scene pulls its weight.
-							</p>
+								Now, the real fun begins. We animate, refine, and polish your video, bringing your message and vision to life. Every woosh, swirl, and pop is carefully crafted to feel just right.
+								We’ll sync the video up with music, narration (if applicable) and sound design, ensuring the video hits both visually and audibly. You’ll get a revision round here too - because we want this to be just right!							</p>
 							<div className="aximo-list-icon">
 								<ul>
 									<li>
@@ -40,4 +40,4 @@ function AboutThree() {
 	);
 }
 
-export default AboutThree;
+export default AboutFour;

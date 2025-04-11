@@ -3,6 +3,7 @@ import Shape2Img from "../../../assets/images/v3/shape2.png";
 import Thumb1Img from "../../../assets/images/v3/thumb1.png";
 import FadeInLeft from "../../animation/FadeInLeft";
 import FadeInUp from "../../animation/FadeInUp";
+import CheckImg from "../../../assets/images/v3/check.svg";
 function About() {
 	return (
 		<div className="section aximo-section-padding2">
@@ -19,15 +20,21 @@ function About() {
 					<div className="col-lg-6 offset-lg-1">
 						<div className="aximo-default-content">
 							<h2>03.</h2>
-							<h3>Consult & Strategy</h3>
+							<h3>Style & Art Direction</h3>
 							<p>
-								We are a leading SEO company dedicated to helping brand grow their online presence &
-								achieve higher search engine rankings and improve digital performance.
+								Time to add personality. We explore color palettes, animation styles, and visual effects that fit your brand. We lock in the look and feel with style frames (fully designed snapshots of key scenes), and we start curating music options to enhance the full experience.
+								We’ll stitch it all together in an animatic (a rough animated version) so you can envision exactly how the final video will shape up.
 							</p>
-							<p>
-								Whether you re a small local business or a global brand, we tailor our SEO services to
-								meet your unique needs & goals.
-							</p>
+							<div className="aximo-list-icon">
+								<ul>
+									<li>
+										<img src={CheckImg} alt="CheckImg" /> ~2 Weeks
+									</li>
+									<li>
+										<img src={CheckImg} alt="CheckImg" /> Revision Included
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

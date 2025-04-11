@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Thumb1Img from "../../../assets/images/v5/thumb1.png";
 import FadeInLeft from "../../animation/FadeInLeft";
 import FadeInUp from "../../animation/FadeInUp";
+
 function About() {
 	return (
 		<div className="section aximo-section-padding4">
@@ -27,7 +28,7 @@ function About() {
 							<FadeInUp className="aximo-btn-wrap">
 								<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
 									<span className="aximo-label-up">Explore more</span>
-									<span className="aximo-label-up">Explore more</span>
+									<span className="aximo-label-up">MOOOORERRREEE</span>
 								</Link>
 							</FadeInUp>
 						</div>

@@ -2,7 +2,8 @@ import Hero from "../../components/home-three/hero";
 import About from "../../components/home-three/about";
 import AboutTwo from "../../components/home-three/about-two";
 import AboutThree from "../../components/home-three/about-three";
-import Services from "../../components/home-three/services";
+import AboutFour from "../../components/home-three/about-four";
+import AboutFive from "../../components/home-three/about-five";
 
 function Process() {
 	return (
@@ -11,8 +12,8 @@ function Process() {
 			<About />
 			<AboutTwo />
 			<AboutThree />
-			<AboutTwo />
-			<About />
+			<AboutFour />
+			<AboutFive />
 		</div>
 	);
 }
