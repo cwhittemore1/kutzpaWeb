@@ -12,57 +12,46 @@ function HeroContent() {
 		<div className="aximo-hero-content">
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
-					<h1>
-						<span className="aximo-title-animation">education first, <br></br> by design.</span>
-
-						{/* <span className="aximo-title-animation">education</span>{' '}
-						<span className="aximo-title-animation">first</span><br></br>{' '}
-						<span className="aximo-title-animation">by design</span> */}
-					</h1>
+					<div className="hero-padding">
+						<h1>
+							<span className="aximo-title-animation">explainer</span>
+						</h1>
+						<h1>
+							<span className="aximo-title-animation hero-subtitle-2">videos</span>
+						</h1>
+					</div>
 				</FadeInStaggerTwoChildren>
-				<FadeInStaggerTwoChildren>
-					<p>
-						{`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
+
+				<div className="row align-items-center">
+					<div className="col-lg-6 col-md-12">
+					<FadeInStaggerTwoChildren>
+					<p className="subtitle-text">
+						{/* {`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
 						 Every video we make is rooted in how people actually absorb and remember information. 
+						`} */}
+						{`Kutzpa – The only animated explainer studio led by globally award winning education and design experts.
 						`}
 					</p>
 				</FadeInStaggerTwoChildren>
-				
-				{/* <FadeInStaggerTwoChildren>
-					<div className="aximo-hero-user-wrap">
-						<div className="aximo-hero-user-thumb">
-							<div className="aximo-hero-user-thumb-item">
-								<img src={User1Img} alt="User1Img" />
-							</div>
-							<div className="aximo-hero-user-thumb-item">
-								<img src={User3Img} alt="User3Img" />
-							</div>
-							<div className="aximo-hero-user-thumb-item">
-								<img src={User2Img} alt="User2Img" />
-							</div>
-						</div>
-						<div className="aximo-hero-user-data">
-							<p>Believed by more than a thousand people</p>
-						</div>
 					</div>
-				</FadeInStaggerTwoChildren> */}
 
-				<FadeInStaggerTwoChildren>
-					{/* <Link className="aximo-call-btn" to="/book-a-call">
-						Book a consultation
-					</Link> */}
+					<div className="col-lg-6 col-md-12">
+					<FadeInStaggerTwoChildren>
+						<FadeInUp className="hero-button d-flex justify-content-end">
+							<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
+								<span>book a call</span>
+								<i className="far fa-arrow-alt-circle-right"></i>
+							</Link>
+						</FadeInUp>
 
-					<FadeInUp className="aximo-btn-wrap">
-						<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
-							<span className="aximo-label-up">book a call</span>
-							<span className="aximo-label-up">We can't wait to meet you!</span>
-						</Link>
-					</FadeInUp>
+						{/* <Link className="aximo-call-btn outlined-btn" to="/book-a-call">
+							Check out our portfolio
+						</Link> */}
+						</FadeInStaggerTwoChildren>
+					</div>
+				</div>
 
-					{/* <Link className="aximo-call-btn outlined-btn" to="/book-a-call">
-						Check out our portfolio
-					</Link> */}
-				</FadeInStaggerTwoChildren>
+
 			</FadeInStaggerTwo>
 		</div>
 	);

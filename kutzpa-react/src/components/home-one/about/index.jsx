@@ -5,16 +5,11 @@ import AboutCounter from "./AboutCounter";
 function About() {
 	return (
 		<div className="section">
-			<div id="aximo-counter"></div>
 			<div className="container">
 			<div className="row aximo-section-video">
 					<div className="col-lg-12">
-						
 						<Video />
 					</div>
-					{/* <div className="col-lg-4">
-						<AboutCounter />
-					</div> */}
 				</div>
 				<div className="px-4">
 					<div className="row justify-content-center">

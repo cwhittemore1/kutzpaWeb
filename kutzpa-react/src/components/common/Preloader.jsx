@@ -18,12 +18,13 @@ export default function Preloader() {
 	return (
 		showLoader && (
 			<div className={`aximo-preloader-wrap ${isLoded === true ? "loaded" : ""}`}>
-				<div className="aximo-preloader">
+				{/* <div className="aximo-preloader">
 					<div></div>
 					<div></div>
 					<div></div>
 					<div></div>
-				</div>
+				</div> */}
+				<div className="loader"></div>
 			</div>
 		)
 	);
