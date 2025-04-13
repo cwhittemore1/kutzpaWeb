@@ -14,16 +14,16 @@ function HeroContent() {
 				<FadeInStaggerTwoChildren>
 					<div className="hero-padding">
 						<h1>
-							<span className="aximo-title-animation">explainer</span>
+							<span className="aximo-title-animation">artful</span>
 						</h1>
 						<h1>
-							<span className="aximo-title-animation hero-subtitle-2">videos</span>
+							<span className="aximo-title-animation hero-subtitle-2">education</span>
 						</h1>
 					</div>
 				</FadeInStaggerTwoChildren>
 
 				<div className="row align-items-center">
-					<div className="col-lg-6 col-md-12">
+					<div className="col-lg-6 col-md-6 col-sm-12">
 					<FadeInStaggerTwoChildren>
 					<p className="subtitle-text">
 						{/* {`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
@@ -35,11 +35,11 @@ function HeroContent() {
 				</FadeInStaggerTwoChildren>
 					</div>
 
-					<div className="col-lg-6 col-md-12">
+					<div className="col-lg-6 col-md-6 col-sm-12">
 					<FadeInStaggerTwoChildren>
 						<FadeInUp className="hero-button d-flex justify-content-end">
-							<Link className="aximo-default-btn pill corn-btn" to="/book-a-call">
-								<span>book a call</span>
+							<Link className="aximo-default-btn pill corn-btn" to="/portfolio-one">
+								<span>view our work</span>
 								<i className="far fa-arrow-alt-circle-right"></i>
 							</Link>
 						</FadeInUp>

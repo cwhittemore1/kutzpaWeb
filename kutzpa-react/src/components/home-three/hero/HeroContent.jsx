@@ -4,7 +4,7 @@ import BreadCrumb from "../../../components/common/Breadcrumb";
 
 function HeroContent() {
 	return (
-		<BreadCrumb title="process" />
+			<BreadCrumb title="process" />
 	);
 }
 

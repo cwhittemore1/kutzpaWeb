@@ -4,14 +4,14 @@ function BreadCrumb({ title }) {
 		<div className="aximo-breadcrumb">
 			<div className="container">
 				<h1 className="post__title ">{title}</h1>
-				<nav className="breadcrumbs">
+				{/* <nav className="breadcrumbs">
 					<ul>
 						<li>
 							<Link to="/">home</Link>
 						</li>
-						<li aria-current="page"> {title}</li>
+						<li aria-current="page">{title}</li>
 					</ul>
-				</nav>
+				</nav> */}
 			</div>
 		</div>
 	);

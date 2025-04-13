@@ -14,7 +14,7 @@ function Footer() {
 						</div>
 						<div className="col-lg-6">
 							<div className="aximo-form-wrap">
-								<h4>Have any questions?</h4>
+								<h4>Got a question?</h4>
 								<a href="mailto:example@gmail.com" className="hello">
 									hello@kutzpa.com
 								</a>

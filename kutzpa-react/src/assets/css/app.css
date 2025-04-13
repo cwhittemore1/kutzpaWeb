@@ -2138,6 +2138,31 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	}
 }
 
+.text-align-right {
+	text-align: end !important;
+}
+
+@media (max-width: 991px) {
+	.text-align-right {
+		text-align: center !important;
+	}
+}
+
+.fine-print {
+	font-size: 14px !important;
+}
+
+.contact-btn {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	font-size: 2em !important;
+	height: auto !important;
+}
+
+.contact-btn span {
+	padding: 40px 20px;
+}
+
 .aximo-footer-bottom {
 	padding: 0px 0px 64px 0px;
 	/* border-top: 1px solid rgba(255, 255, 255, .5); */
@@ -2581,23 +2606,27 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 .aximo-default-btn.blue-btn:hover {
 	background-color: var(--orange-bg2);
 }
+
+
+
 .aximo-default-btn.corn-btn {
 	color: var(--white) !important;
 	background: linear-gradient(var(--dark-bg), var(--dark-bg)) padding-box, linear-gradient(to right, var(--accent-bg), #FF5171) border-box;
 	border-radius: 50em;
-	border: 4px solid transparent;;
-	font-size: 1.2em;
+	border: 4px solid transparent;
+	font-size: 1.5em;
+	line-height: 2;
 }
-.aximo-default-btn.corn-btn:hover {
-	color: var(--white);
-}
+
 .aximo-default-btn.corn-btn i {
 	padding-left: 8px;
 	font-size: 1em;
 }
-.aximo-default-btn.corn-btn i:hover{
-	transform: rotate(360deg);
-}
+/* .aximo-default-btn.corn-btn:hover {
+	transform: scale(1.2) !important;
+	background: linear-gradient(var(--dark-bg), var(--dark-bg)) padding-box, linear-gradient(to left, var(--accent-bg), #FF5171) border-box;
+	transition: all 0.5s ease-out;
+} */
 
 .aximo-default-btn.green-btn {
 	color: var(--light-color5) !important;
@@ -3469,6 +3498,11 @@ h1.post__title {
 		padding: 130px 0 80px;
 	}
 }
+
+.process-thumb-border img {
+	border-radius: 32px;
+}
+
 .aximo-hero-thumb {
 	right: -5%;
 	max-width: 490px;
@@ -8864,8 +8898,8 @@ a.aximo-connect-login img {
 .aximo-title-animation {
 	position: relative;
 	display: inline-block;
-	font-size: 1.5em;
-	line-height: 1.2;
+	font-size: 1.7em;
+	line-height: 1;
 }
 
 .aximo-title-shape {
@@ -8883,7 +8917,7 @@ a.aximo-connect-login img {
 }
 
 .hero-subtitle-2 {
-	margin-left:40%;
+	margin-left:20%;
 }
 
 .subtitle-text {
@@ -8955,7 +8989,18 @@ a.aximo-connect-login img {
 
 }
 
+@media (max-width: 991px) {
+	.subtitle-text {
+		margin: 0 auto;
+	}
+	.hero-subtitle-2 {
+		font-size: 1.5em;
+		margin-left: 0;
+	}
+}
+
 @media (max-width: 767px) {
+	
 	.hero-button {
 		justify-content: center !important;
 	}
@@ -8963,6 +9008,7 @@ a.aximo-connect-login img {
 		width: 90%;
 	}
 }
+
 
 
 /*1.3 pages css*/
@@ -9062,7 +9108,7 @@ a.aximo-connect-login img {
 	justify-content: center;
 	position: absolute;
 	color: var(--heading-color);
-	background-color: var(--yellow-bg);
+	background-color: var(--accent-bg);
 }
 
 .aximo-content-section {
@@ -10539,6 +10585,10 @@ button#aximo-notified-btn {
 	position: absolute;
 	top: 5px;
 	right: 5px;
+}
+
+.fw-500 {
+	font-weight: 500;
 }
 
 /*1.4 themes css*/

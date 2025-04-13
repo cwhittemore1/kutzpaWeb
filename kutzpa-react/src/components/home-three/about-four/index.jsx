@@ -1,18 +1,15 @@
 import CheckImg from "../../../assets/images/v3/check.svg";
 import Shape1Img from "../../../assets/images/v3/shape1.png";
-import Thumb2Img from "../../../assets/images/v3/thumb2.png";
+import Thumb4Img from "../../../assets/images/v3/production.gif";
 import FadeInRight from "../../animation/FadeInRight";
 function AboutFour() {
 	return (
 		<div className="section aximo-section-padding6 overflow-hidden">
 			<div className="container">
-				<div className="row">
+				<div className="row align-items-center">
 					<div className="col-lg-5 order-lg-1 offset-lg-1">
-						<FadeInRight className="aximo-content-thumb ">
-							<img src={Thumb2Img} alt="Thumb2Img" />
-							<div className="aximo-thumb-shape2">
-								<img src={Shape1Img} alt="Shape1Img" />
-							</div>
+						<FadeInRight className="aximo-content-thumb process-thumb-border">
+							<img src={Thumb4Img} alt="Thumb4Img" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">

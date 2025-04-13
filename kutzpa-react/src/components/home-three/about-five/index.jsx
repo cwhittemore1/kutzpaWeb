@@ -1,21 +1,18 @@
 import { Link } from "react-router-dom";
 import Shape2Img from "../../../assets/images/v3/shape2.png";
-import Thumb1Img from "../../../assets/images/v3/thumb1.png";
+import Thumb5Img from "../../../assets/images/v3/thumb5.png";
 import FadeInLeft from "../../animation/FadeInLeft";
 import FadeInUp from "../../animation/FadeInUp";
 import CheckImg from "../../../assets/images/v3/check.svg";
 
 function AboutFive() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section aximo-section-padding6">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
-						<FadeInLeft className="aximo-content-thumb">
-							<img src={Thumb1Img} alt="Thumb1Img" />
-							<div className="aximo-thumb-shape1">
-								<img src={Shape2Img} alt="Shape2Img" />
-							</div>
+						<FadeInLeft className="aximo-content-thumb process-thumb-border">
+							<img src={Thumb5Img} alt="Thumb5Img" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-6 offset-lg-1">

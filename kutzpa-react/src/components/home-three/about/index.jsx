@@ -13,7 +13,7 @@ function About() {
 						<FadeInLeft className="aximo-content-thumb">
 							<img src={Thumb1Img} alt="Thumb1Img" />
 							<div className="aximo-thumb-shape1">
-								<img src={Shape2Img} alt="Shape2Img" />
+								{/* <img src={Shape2Img} alt="Shape2Img" /> */}
 							</div>
 						</FadeInLeft>
 					</div>

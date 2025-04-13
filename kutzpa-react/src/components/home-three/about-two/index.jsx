@@ -1,5 +1,4 @@
 import CheckImg from "../../../assets/images/v3/check.svg";
-import Shape1Img from "../../../assets/images/v3/shape1.png";
 import Thumb2Img from "../../../assets/images/v3/thumb2.png";
 import FadeInRight from "../../animation/FadeInRight";
 function AboutThree() {
@@ -10,9 +9,6 @@ function AboutThree() {
 					<div className="col-lg-5 order-lg-1 offset-lg-1">
 						<FadeInRight className="aximo-content-thumb ">
 							<img src={Thumb2Img} alt="Thumb2Img" />
-							<div className="aximo-thumb-shape2">
-								<img src={Shape1Img} alt="Shape1Img" />
-							</div>
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">

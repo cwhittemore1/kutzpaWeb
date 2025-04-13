@@ -40,12 +40,12 @@ function TwoColumnFaq() {
 	return (
 		<div className="section aximo-section-padding">
 			<div className="container">
-				<div className="aximo-section-title center">
-					<h2>
-						<span className="aximo-title-animation">
+				<div className="aximo-section-title start">
+					<h3>
+						<span className="aximo-title-animation pt-5">
 							FAQs
 						</span>
-					</h2>
+					</h3>
 				</div>
 				<div className="row">
 					<div className="col-lg-6">

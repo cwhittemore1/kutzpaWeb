@@ -1,30 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import LayoutEight from "../components/layout/LayoutEight.jsx";
-import LayoutFive from "../components/layout/LayoutFive.jsx";
-import LayoutFour from "../components/layout/LayoutFour.jsx";
 import LayoutOne from "../components/layout/LayoutOne.jsx";
-import LayoutSeven from "../components/layout/LayoutSeven.jsx";
-import LayoutSix from "../components/layout/LayoutSix.jsx";
-import LayoutThree from "../components/layout/LayoutThree.jsx";
-import LayoutTwo from "../components/layout/LayoutTwo.jsx";
 import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs.jsx";
 import Pricing from "../page/Pricing";
-import Reset from "../page/auth/ResetPassword.jsx";
-import SignIn from "../page/auth/SignIn";
-import SignUp from "../page/auth/SignUp";
-import BlogGridPage from "../page/blog/BlogGridPage.jsx";
-import BlogPage from "../page/blog/BlogPage.jsx";
-import SingleBlogPage from "../page/blog/SingleBlog.jsx";
-import HomeFive from "../page/home/HomeFive.jsx";
-import HomeFour from "../page/home/HomeFour.jsx";
 import HomeOne from "../page/home/HomeOne.jsx";
-import HomeSeven from "../page/home/HomeSeven.jsx";
-import HomeSix from "../page/home/HomeSix.jsx";
 import Process from "../page/home/Process.jsx";
-import HomeTwo from "../page/home/HomeTwo.jsx";
 import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
 import SinglePortfolio from "../page/portfolio/SinglePortfolio";
@@ -33,7 +15,6 @@ import SingleService from "../page/service/SingleService.jsx";
 import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
 import CommingSoon from "../page/utility/CommingSoon.jsx";
-import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
 
 export const router = createBrowserRouter([
@@ -62,11 +43,6 @@ export const router = createBrowserRouter([
 						element: <ContactUs />,
 					},
 					{
-						path: "/faq",
-						element: <Faq />,
-					},
-
-					{
 						path: "/testimonial",
 						element: <TestimonialPage />,
 					},
@@ -74,18 +50,6 @@ export const router = createBrowserRouter([
 					{
 						path: "/pricing",
 						element: <Pricing />,
-					},
-					{
-						path: "/blog",
-						element: <BlogPage />,
-					},
-					{
-						path: "/single-blog",
-						element: <SingleBlogPage />,
-					},
-					{
-						path: "/blog-grid",
-						element: <BlogGridPage />,
 					},
 					{
 						path: "/service",

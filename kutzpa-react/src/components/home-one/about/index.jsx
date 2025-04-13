@@ -14,7 +14,7 @@ function About() {
 				<div className="px-4">
 					<div className="row justify-content-center">
 						<div className="col-lg-6 col-sm-12 pb-4">						
-							<h2 className=" ">people connect with what they understand</h2>
+							<h2 className="fw-500">people connect with what they understand</h2>
 						</div>
 						<div className="col-lg-6 col-sm-12">								
 							<p>Explainer videos are the most popular form of video marketing, with 98% of people having seen one and most preferring video over text.
