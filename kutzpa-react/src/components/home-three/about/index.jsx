@@ -22,11 +22,15 @@ function About() {
 							<h2>01.</h2>
 							<h3>Consult & Strategy</h3>
 							<p>
-								We kick things off with a deep-dive remote consultation, getting to know your goals, wishlist, and big-picture vision. What message needs to land? Who’s watching? What’s gonna make this video unforgettable?
+								After contract signing, we kick things off with a deep-dive remote consultation. 
+								During this time we unpack your goals, wishlist, big-picture vision, take note of 
+								competitors, and gather your brand assets to start laying the groundwork for a 
+								video that’s uniquely YOU.
 							</p>
-							<p>
-								We’ll dig into your audience, analyze competitors, ideate, and explore the best way to make your message click. After contract signing, we gather your brand assets and start laying the groundwork for a video that’s uniquely YOU.
-							</p>
+
+							{/* What message needs to land? Who’s watching? What’s gonna make 
+							this video unforgettable? */}
+
 							<div className="aximo-list-icon">
 								<ul>
 									<li>

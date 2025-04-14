@@ -5,10 +5,11 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #fff;
+	background-color: var(--dark-bg);
+	color: var(--white);
 	width: 320px;
 	z-index: 9999;
-	border: 1px solid #ddd;
+	border-right: 1px solid rgba(255,255,255, 0.3);
 }
 .mobile-nav-wrap .mobile-menu-trigger {
 	display: flex;
@@ -63,6 +64,7 @@
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+	margin-bottom: 2em;
 }
 .mobile-menu-head--close {
 	height: 100%;
@@ -71,16 +73,22 @@
 	cursor: pointer;
 	line-height: 50px;
 	text-align: center;
-	color: #000000;
+	color: var(--white);
 	font-size: 28px;
 	font-weight: 600;
 }
 .mobile-menu-head--title {
 	margin: auto;
+	margin-left: 24px;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
+.mobile-logo {
+	height: 24px;
+}
+
 .mobile-navbar > ul {
 	overflow-y: auto;
 	height: 100vh;
@@ -105,8 +113,8 @@
 }
 .mobile-navbar ul li a,
 .mobile-navbar ul li button {
-	font-family: sans-serif;
-	color: #000;
+	font-family: 'Montserrat';
+	color: var(--white);
 	display: block;
 	font-size: 16px;
 	font-weight: 600;
@@ -114,7 +122,8 @@
 	height: 50px;
 	text-decoration: none;
 	padding: 0 20px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	text-align: right;
 }
 .mobile-navbar ul li button i {
 	position: absolute;
@@ -140,3 +149,4 @@
 		display: block;
 	}
 }
+

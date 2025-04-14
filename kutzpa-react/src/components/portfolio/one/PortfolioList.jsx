@@ -13,8 +13,8 @@ const portfolioListData = [
 	// },
 	{
 		id: crypto.randomUUID(),
-		title: "Kutzpa",
-		description: "A comprehensive look into our brand, identity, & blueprint",
+		title: "brand reveal",
+		description: "A comprehensive look into Kutzpa's brand, identity, & blueprint",
 		img: Portfolio2Img,
 	},
 ];

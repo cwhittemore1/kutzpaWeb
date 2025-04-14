@@ -17,8 +17,13 @@ function AboutFour() {
 						<h2>04.</h2>
 						<h3>Production</h3>
 							<p>
-								Now, the real fun begins. We animate, refine, and polish your video, bringing your message and vision to life. Every woosh, swirl, and pop is carefully crafted to feel just right.
-								We’ll sync the video up with music, narration (if applicable) and sound design, ensuring the video hits both visually and audibly. You’ll get a revision round here too - because we want this to be just right!							</p>
+								Now, the real fun begins. We animate, refine, and polish your video, 
+								bringing your message and vision to life. Every woosh, swirl, and 
+								pop is carefully crafted to feel just right. We’ll sync the video up 
+								with music, narration (if applicable) and sound design, ensuring the 
+								video hits both visually and audibly. You’ll get a final revision round here 
+								too - because we want this to be just right!							
+							</p>
 							<div className="aximo-list-icon">
 								<ul>
 									<li>

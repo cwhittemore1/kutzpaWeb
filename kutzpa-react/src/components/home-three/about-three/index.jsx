@@ -19,8 +19,11 @@ function About() {
 							<h2>03.</h2>
 							<h3>Style & Art Direction</h3>
 							<p>
-								Time to add personality. We explore color palettes, animation styles, and visual effects that fit your brand. We lock in the look and feel with style frames (fully designed snapshots of key scenes), and we start curating music options to enhance the full experience.
-								We’ll stitch it all together in an animatic (a rough animated version) so you can envision exactly how the final video will shape up.
+								Time to add personality. We explore color palettes, animation styles, 
+								visual effects, and audio that fit your brand. We stitch it all together 
+								in an animatic (a rough animated version.) so you can envision exactly 
+								how the final video will shape up. This is a second moment for alignment 
+								and revision before we begin final production.
 							</p>
 							<div className="aximo-list-icon">
 								<ul>

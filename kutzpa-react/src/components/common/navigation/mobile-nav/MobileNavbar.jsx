@@ -46,7 +46,15 @@ const MobileNavbar = ({ menuItemsData, title }) => {
 			{showMenu && (
 				<motion.nav className="mobile-navbar" variants={animationVariants} initial="initial" animate="animate">
 					<div className="mobile-menu-head">
-						<div className="mobile-menu-head--title">{title}</div>
+						<div className="mobile-menu-head--title">
+
+							<div class="brand-logo">
+								<a href="/">
+									<img src="/src/assets/images/logo/logo-white.svg?t=1744146850015" alt="Logo" class="mobile-logo" />
+								</a>
+							</div>
+
+						</div>
 						<div className="mobile-menu-head--close" onClick={() => setShowMenu(false)}>
 							&times;
 						</div>

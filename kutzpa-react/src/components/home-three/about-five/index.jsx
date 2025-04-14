@@ -20,13 +20,17 @@ function AboutFive() {
 							<h2>05.</h2>
 							<h3>Delivery & Handoff</h3>
 							<p>
-								After revision changes are made, your video is ready to roll. We’ll export it in the format you need and package it up for a smooth handoff. If your project includes multiple versions (like social clips or alternate aspect ratios), we’ll take care of that too.
-								Need tips on how to launch it? We’ll share implementation insights to help you make the most of your NEW video.
+								After revision changes are made, your video is ready to roll. 
+								We’ll export it in the format you need and package it up for a 
+								smooth handoff. If your project includes multiple versions, 
+								like social clips or alternate aspect ratios, we’ll take care 
+								of that too. Need tips on how to launch it? We’ll share 
+								implementation insights to help you make the most of your NEW video.
 							</p>
 							<div className="aximo-list-icon">
 								<ul>
 									<li>
-										<img src={CheckImg} alt="CheckImg" /> Pending reception of final payment
+										<img src={CheckImg} alt="CheckImg" />That's it!
 									</li>
 								</ul>
 							</div>

@@ -14,12 +14,15 @@ function About() {
 				<div className="px-4">
 					<div className="row justify-content-center">
 						<div className="col-lg-6 col-sm-12 pb-4">						
-							<h2 className="fw-500">people connect with what they understand</h2>
+							<h2 className="fw-500">the brain focuses on motion</h2>
 						</div>
 						<div className="col-lg-6 col-sm-12">								
-							<p>Explainer videos are the most popular form of video marketing, with 98% of people having seen one and most preferring video over text.
+							<p>Explainer videos are the most popular form of video marketing, with 98% 
+								of people having seen one and most preferring video over text.
 							</p>
-							<p>Kutzpa is uniquely positioned to deliver standout explainers as the only studio led by globally awarded experts in both education and design, backed by 13 years of studying how people think, learn, and remember. We're a hands-on team. When you hire us, you work directly with us - no subcontractors, no handoffs. Just our full attention and expertise on every project! 
+							<p>Kutzpa is backed by 13 years of studying how people think, learn, and 
+								remember. When you hire us, you work directly with us, no subcontractors, 
+								no middle-men. Just our full attention and expertise on every project! 
 							</p>
 						</div>
 				</div>

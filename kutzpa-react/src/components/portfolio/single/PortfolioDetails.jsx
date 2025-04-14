@@ -30,17 +30,17 @@ function PortfolioDetails() {
 						<p>client</p>
 					</div>
 					<div className="aximo-project-info">
-						<h4>2025</h4>
-						<p>date</p>
+						<h4>brand reveal</h4>
+						<p>use case</p>
 					</div>
 					<div className="aximo-project-info">
-						<h4>8 months</h4>
+						<h4>6 weeks</h4>
 						<p>duration</p>
 					</div>
 				</div>
 				<div className="aximo-project-single-wrap">
 					<div className="row justify-content-center">
-						<div className="col-lg-5">
+						<div className="col-lg-5 pb-5">
 							<h3>
 								<span className="aximo-title-animation">
 									The brief
@@ -51,7 +51,7 @@ function PortfolioDetails() {
 								innovative and energy-efficient smart home thermostat.
 							</p>
 						</div>
-						<div className="col-lg-5">
+						<div className="col-lg-5 pb-5">
 							<h3>
 								<span className="aximo-title-animation">
 									The delivery
