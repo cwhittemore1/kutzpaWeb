@@ -5,12 +5,12 @@ const faqData = {
 		{
 			id: crypto.randomUUID(),
 			title: "Why work with Kutzpa?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			text: "Kutzpa is the only animated explainer studio led by globally award winning education and design experts. When you hire us, you work directly with us, no subcontractors, no middle-men. Just our full attention and expertise on every project!",
 		},
 		{
 			id: crypto.randomUUID(),
 			title: "What types of videos do we offer?",
-			text: "Explaining the design agency's process from initial concept to final delivery helps clients understand what to expect.",
+			text: "Explainer videos, we help simplify complex ideas of all kinds into short form vidoes. Our work covers use cases across many formats and archetypes, such as product promos, mini-series, founders stories, abstract concepts, brand & identity, and all kinds of other custom out of the box scenarios.",
 		},
 		{
 			id: crypto.randomUUID(),
@@ -22,17 +22,17 @@ const faqData = {
 		{
 			id: crypto.randomUUID(),
 			title: "How long does it take?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization. While no two projects are the same, we do average about an 8-week turn around for 60s of footage.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How does feedback and revisions work?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "How do feedback and revisions work?",
+			text: "We value your feedback and collaborate closely to ensure you're happy with the final design. Our process includes three revision points—storyboarding, style frames, and production—each with 3–5 days for review and a feedback call. We keep moving forward, layering approvals so we never get stuck in revision loops.",
 		},
 		{
 			id: crypto.randomUUID(),
 			title: "Who owns the rights to the videos?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			text: "You do! Clients retain the rights to the final video(s) in the requested format(s). Kutzpa retains rights to all editable or working files.",
 		},
 	],
 };

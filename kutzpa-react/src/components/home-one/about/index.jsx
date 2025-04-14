@@ -14,7 +14,7 @@ function About() {
 				<div className="px-4">
 					<div className="row justify-content-center">
 						<div className="col-lg-6 col-sm-12 pb-4">						
-							<h2 className="fw-500">the brain focuses on motion</h2>
+							<h2 className="fw-500">it's what the people want</h2>
 						</div>
 						<div className="col-lg-6 col-sm-12">								
 							<p>Explainer videos are the most popular form of video marketing, with 98% 

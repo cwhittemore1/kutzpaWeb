@@ -3,6 +3,8 @@ import Project1Img from "../../../assets/images/v1/project1.png";
 import Project2Img from "../../../assets/images/v1/project2.png";
 import Project3Img from "../../../assets/images/v1/project3.png";
 import Project4Img from "../../../assets/images/v1/project4.png";
+import Project5Img from "../../../assets/images/v1/project5.png";
+import Project6Img from "../../../assets/images/v1/project6.png";
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -41,14 +43,14 @@ const projectsData = [
 		title: "Brand & Identity",
 		subtitle: "Look and feel, in a nutshell.",
 		description: "A brand overview video captures who you are and what you do. Perfect for your homepage, pitch decks, or social channels. It’s warm, clear, and memorable.",
-		img: Project1Img,
+		img: Project5Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Custom",
 		subtitle: "Need something a little different?",
 		description: "We taken on projects of all shapes and sizes, and love those that don't fit easily in boxes. If you have a unique context or audience, we can help you make it make sense.",
-		img: Project2Img,
+		img: Project6Img,
 	},
 ];
 
