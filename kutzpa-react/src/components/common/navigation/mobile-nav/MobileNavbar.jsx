@@ -48,9 +48,9 @@ const MobileNavbar = ({ menuItemsData, title }) => {
 					<div className="mobile-menu-head">
 						<div className="mobile-menu-head--title">
 
-							<div class="brand-logo">
+							<div className="brand-logo">
 								<a href="/">
-									<img src="/src/assets/images/logo/logo-white.svg?t=1744146850015" alt="Logo" class="mobile-logo" />
+									<img src="/src/assets/images/logo/logo-white.svg?t=1744146850015" alt="Logo" className="mobile-logo" />
 								</a>
 							</div>
 
