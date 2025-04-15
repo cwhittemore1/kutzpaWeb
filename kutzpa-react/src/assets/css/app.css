@@ -6440,6 +6440,16 @@ img.aximo-video-circle {
 	opacity: 1;
 	font-weight: 700;
 }
+
+@media (max-width: 500px) {
+	.aximo-social-icon ul li a {
+		justify-content: center;
+	}
+	.aximo-footer-top {
+		text-align: center;
+	}
+}
+
 .aximo-social-icon.social-large ul li a {
 	width: 45px;
 	height: 45px;
