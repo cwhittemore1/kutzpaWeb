@@ -15,7 +15,7 @@ function AboutFive() {
 							<img src={Thumb5Img} alt="Thumb5Img" />
 						</FadeInLeft>
 					</div>
-					<div className="col-lg-6 offset-lg-1">
+					<div className="col-lg-6 offset-lg-1 px-4">
 						<div className="aximo-default-content">
 							<h2>05.</h2>
 							<h3>Delivery & Handoff</h3>

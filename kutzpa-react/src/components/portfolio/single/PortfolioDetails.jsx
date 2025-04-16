@@ -40,10 +40,10 @@ function PortfolioDetails() {
 				</div>
 				<div className="aximo-project-single-wrap">
 					<div className="row justify-content-center">
-						<div className="col-lg-5 pb-5">
+						<div className="col-lg-5 pb-5 px-4">
 							<h3>
 								<span className="aximo-title-animation">
-									The brief
+									brief
 								</span>
 							</h3>
 							<p>
@@ -51,10 +51,10 @@ function PortfolioDetails() {
 								innovative and energy-efficient smart home thermostat.
 							</p>
 						</div>
-						<div className="col-lg-5 pb-5">
+						<div className="col-lg-5 pb-5 px-4">
 							<h3>
 								<span className="aximo-title-animation">
-									The delivery
+									delivery
 								</span>
 							</h3>
 							<p>

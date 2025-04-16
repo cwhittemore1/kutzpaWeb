@@ -12,7 +12,7 @@ function AboutFour() {
 							<img src={Thumb4Img} alt="Thumb4Img" />
 						</FadeInRight>
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-6 px-4">
 						<div className="aximo-default-content">
 						<h2>04.</h2>
 						<h3>Production</h3>

@@ -33,25 +33,25 @@ function PortfolioList() {
 
 			<div className="row">
 				<div className="col">
-				<div className="container py-3">
-					<h2 className="pb-3">coming soon</h2>
+				<div className="container">
+					<h3 className="pb-3 px-4">coming soon</h3>
 				</div>
 
 				<div className="container py-3">
 					<div className="coming-soon-wrapper comingSoon1">
-						<h4>company overview</h4>
+						<p className="mb-0"><b>company overview</b></p>
 						<p>Ventura is a travel app for everyone designed for authentic exploration</p>
 					</div>
 				</div>
 				<div className="container py-3">
 					<div className="coming-soon-wrapper comingSoon2">
-						<h4>mini-series</h4>
+						<p className="mb-0"><b>mini-series</b></p>
 						<p>Palate is a marketplace for food freelances to become financially free</p>
 					</div>
 				</div>
 				<div className="container py-3">
 					<div className="coming-soon-wrapper comingSoon3">
-						<h4>tbd</h4>
+						<p className="mb-0"><b>tbd</b></p>
 						<p>Magic Lanturns - Description</p>
 					</div>
 				</div>

@@ -13,7 +13,7 @@ function PortfolioCard({ portfolio: { title, description, img } }) {
 					</Link>
 				</div>
 				
-				<div className="aximo-project-data3">
+				<div className="aximo-project-data3 px-4 pb-4">
 					<h3>
 						<Link to="/single-portfolio">{title}</Link>
 					</h3>

@@ -17,7 +17,7 @@ function About() {
 							</div>
 						</FadeInLeft>
 					</div>
-					<div className="col-lg-6 offset-lg-1">
+					<div className="col-lg-6 offset-lg-1 px-4">
 						<div className="aximo-default-content">
 							<h2>01.</h2>
 							<h3>Consult & Strategy</h3>

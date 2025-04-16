@@ -11,7 +11,7 @@ function AboutThree() {
 							<img src={Thumb2Img} alt="Thumb2Img" />
 						</FadeInRight>
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-6 px-4">
 						<div className="aximo-default-content">
 						<h2>02.</h2>
 						<h3>Story & Storyboard</h3>

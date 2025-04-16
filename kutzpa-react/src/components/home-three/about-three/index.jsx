@@ -14,7 +14,7 @@ function About() {
 							<img src={Thumb3Img} alt="Thumb3Img" />
 						</FadeInLeft>
 					</div>
-					<div className="col-lg-6 offset-lg-1">
+					<div className="col-lg-6 offset-lg-1 px-4">
 						<div className="aximo-default-content">
 							<h2>03.</h2>
 							<h3>Style & Art Direction</h3>
