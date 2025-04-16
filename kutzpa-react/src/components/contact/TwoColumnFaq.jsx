@@ -14,13 +14,13 @@ const faqData = {
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What types of videos do we offer?",
+			title: "What types of videos do you offer?",
 			text: "We specialize in 2D animated explainer videos, which are short engaging videos that break down complex topics in a few minutes or less. Explainer videos are great for company overviews, product promos, mini-series, founders stories, abstract concepts, and other custom ideas.",
 		},
 		{
 			id: crypto.randomUUID(),
 			title: "How much does a video cost?",
-			text: "TCost depends on a variety of factors including video length, style, and complexity. To give you a general idea, a single, custom 2D animated video typically runs between $22,000-29,000. Looking to produce a series of videos? Love it! We’re always ready to discuss package pricing to consolidate costs.",
+			text: "Cost depends on a variety of factors including video length, style, and complexity. To give you a general idea, a single, custom 2D animated video typically runs between $22,000 - $29,000. Looking to produce a series of videos? Love it! We’re always ready to discuss package pricing to consolidate costs.",
 		},
 	],
 	faq2: [
@@ -36,7 +36,7 @@ const faqData = {
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do feedback and revisions work?",
+			title: "How do revisions and feedback work?",
 			text: "We value your feedback and collaborate closely to ensure you're happy with the final design. Our process includes three revision points—storyboarding, style frames, and production—each with 3–5 days for review and a feedback call. We keep moving forward, layering approvals so we never get stuck in revision loops.",
 		},
 		{
