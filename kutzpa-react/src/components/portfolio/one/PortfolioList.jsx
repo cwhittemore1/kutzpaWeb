@@ -31,32 +31,34 @@ function PortfolioList() {
 				))}
 			</div>
 
-			<div className="row px-4">
-					<div className="container">
-						<h3 className="pb-3 px-4">coming soon</h3>
-					</div>
+			<div className="container py-5 coming-soon-container">
+				<div className="row px-4">
+						<div className="container">
+							<p className=" coming-soon-title pb-3 px-4"><b>Upcoming projects</b></p>
+						</div>
 
-				<div className="container"> 
-					<div className="row">
-						<div className="col-lg-4 mb-2">
-							<div className="coming-soon-wrapper comingSoon1">
-								<p className="mb-0"><b>Ventura</b></p>
-								<p>Ventura is a travel app for everyone designed for authentic exploration.</p>
+						<div className="container"> 
+							<div className="row">
+								<div className="col-lg-4 mb-3">
+									<div className="coming-soon-wrapper comingSoon1">
+										<p className="mb-0"><b>Ventura</b></p>
+										<p>Ventura is a travel app for everyone designed for authentic joy and exploration.</p>
+									</div>
+								</div>
+								<div className="col-lg-4 mb-3">
+									<div className="coming-soon-wrapper comingSoon2">
+										<p className="mb-0"><b>Palate</b></p>
+										<p>Palate is a marketplace for food freelancers to build their own financial freedom.</p>
+									</div>
+								</div>
+								<div className="col-lg-4 mb-3">
+									<div className="coming-soon-wrapper comingSoon3">
+										<p className="mb-0"><b>Magic Lanterns</b></p>
+										<p>Magic Lanterns is the story of film and animation across time, split into mini chapters.</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div className="col-lg-4 mb-2">
-							<div className="coming-soon-wrapper comingSoon2">
-								<p className="mb-0"><b>Palate</b></p>
-								<p>Palate is a marketplace for food freelancers to build their own financial freedom.</p>
-							</div>
-						</div>
-						<div className="col-lg-4 mb-2">
-							<div className="coming-soon-wrapper comingSoon3">
-								<p className="mb-0"><b>Magic Lanterns</b></p>
-								<p>Magic Lanterns is the story of film and animation across time, split into mini chapters.</p>
-							</div>
-						</div>
-					</div>
 				</div>
 
 			</div>
