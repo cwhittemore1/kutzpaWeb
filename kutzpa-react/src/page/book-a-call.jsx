@@ -32,8 +32,8 @@ function BookAcall() {
 									<p>Pick a day and time for a 30m video call to meet and discuss your project.</p>
 
 									<a href="https://calendly.com/kutzpa/30min">
-										<button className="aximo-default-btn pill corn-btn contact-btn">
-											<span>let's play!</span>
+										<button className="aximo-default-btn pill custom-button contact-btn">
+											<span>book call!</span>
 										</button>
 									</a>
 								</div>

@@ -44,11 +44,11 @@ function FooterContent() {
 							Dribbble
 						</a>
 					</li> */}
-					<li>
+					{/* <li>
 						<a href="https://www.instagram.com/kutzpa.llc" target="_blank">
 							Behance
 						</a>
-					</li>
+					</li> */}
 					<li>
 						<a href="https://www.linkedin.com/company/104485116/admin/dashboard/" target="_blank">
 							LinkedIn

@@ -2170,9 +2170,9 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	height: auto !important;
 }
 
-.contact-btn span {
+/* .contact-btn span {
 	padding: 40px 20px;
-}
+} */
 
 .aximo-footer-bottom {
 	padding: 0px 0px 64px 0px;
@@ -2628,6 +2628,36 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	font-size: 1.5rem;
 	line-height: 2;
 }
+
+
+.custom-button {
+	background: linear-gradient(var(--dark-bg), var(--dark-bg)) padding-box, linear-gradient(
+		  var(--angle),
+		  var(--accent-color),
+		  #FF5171
+		) border-box;
+	animation: 4s rotate linear infinite;
+	border-radius: 50rem;
+	border: 4px solid transparent;
+	font-size: 1.5rem;
+	line-height: 2;
+	color: var(--white) !important;
+  }
+  .custom-button:hover {
+	scale: 1.2;
+  }
+  
+  @keyframes rotate {
+	to {
+	  --angle: 360deg;
+	}
+  }
+  
+  @property --angle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+  }
 
 
 .aximo-default-btn.corn-btn i {
@@ -3587,7 +3617,6 @@ h1.post__title {
 }
 .aximo-hero-content p {
 	font-size: 21px;
-	padding-right: 125px;
 	color: var(--white-color);
 }
 @media (max-width: 991px) {
@@ -8950,7 +8979,7 @@ a.aximo-connect-login img {
 }
 
 .subtitle-text {
-	width: 650px;
+	width: 350px;
 	font-size: 1em !important;
 	font-weight: 500;
 	margin-left: 40px;
@@ -8965,8 +8994,8 @@ a.aximo-connect-login img {
 .subtitle-text:after {
 	content: '}';
 	font-size: 100px;
-	margin-left: 10px;
-	margin-top: -15px;
+	margin-left: 80px;
+	margin-top: -20px;
 	position: absolute;
 }
 
@@ -8978,7 +9007,6 @@ a.aximo-connect-login img {
 	.subtitle-text {
 		width: 300px;
 		text-align: left;
-		font-size: 0.7em !important;
 		margin-left: 40px;
 		margin-bottom: 4em;
 		line-height: 1.5;
@@ -8996,8 +9024,8 @@ a.aximo-connect-login img {
 	.subtitle-text:after {
 		content: '}';
 		font-size: 100px;
-		margin-left: 195px;
-		margin-top: -90px;
+		margin-left: 70px;
+		margin-top: -80px;
 		position: absolute;
 		font-weight: 300;
 	}
@@ -9013,16 +9041,16 @@ a.aximo-connect-login img {
 		padding-bottom: 3em;
 	}
 	.subtitle-text {
-		font-size: 0.8em !important;
 		margin-bottom: 5rem !important;
 		text-align: center;
 	}
 	.subtitle-text:before {
 		margin-left: -40px;
+		margin-top: -50px;
 	}
 	.subtitle-text:after {
 		margin-left: 35px;
-		margin-top: -90px;
+		margin-top: -80x;
 	}
 	.hero-subtitle-2 {
 		margin-left: 0;
@@ -9041,7 +9069,7 @@ a.aximo-connect-login img {
 
 @media (max-width: 500px) {
 	.aximo-title-animation {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 }
 
@@ -10621,29 +10649,38 @@ button#aximo-notified-btn {
 	right: 5px;
 }
 
-.fw-500 {
-	font-weight: 500;
-}
-
 @media (max-width: 500) {
 	p.slider-description {
 		margin-bottom: 0px !important;
 	}
 }
 
+.side-by-side-title {
+	font-size: 85px;
+}
+@media (max-width: 1440px) {
+	.side-by-side-title {
+		font-size: 80px;
+	}
+}
+@media (max-width: 991px) {
+	.side-by-side-title {
+		font-size: 70px;
+	}
+}
+
 .coming-soon-wrapper {
 	border-radius: 16px;
 	padding: 16px 24px;
+	height: 100%;
 }
 
 
 .comingSoon1 {
 	background: #7301FE;
-	margin-bottom: -25px;
 }
 .comingSoon2 {
 	background: #3A0990;
-	margin-bottom: -25px;
 }
 .comingSoon3 {
 	background: #E1C3FF;

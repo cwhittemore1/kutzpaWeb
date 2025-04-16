@@ -3,7 +3,7 @@ import LayoutOne from "../components/layout/LayoutOne.jsx";
 import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
-import ContactUs from "../page/ContactUs.jsx";
+import BookAcall from "../page/book-a-call.jsx";
 import Pricing from "../page/Pricing";
 import HomeOne from "../page/home/HomeOne.jsx";
 import Process from "../page/home/Process.jsx";
@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
 					},
 					{
 						path: "/book-a-call",
-						element: <ContactUs />,
+						element: <BookAcall />,
 					},
 					{
 						path: "/testimonial",

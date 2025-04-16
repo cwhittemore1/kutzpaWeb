@@ -29,8 +29,7 @@ function HeroContent() {
 						{/* {`Kutzpa is the only animation explainer studio led by globally award winning education and design experts. 
 						 Every video we make is rooted in how people actually absorb and remember information. 
 						`} */}
-						{`Kutzpa – The only animated explainer studio led by globally award winning education and design experts.
-						`}
+						{`We create videos that explain complex topics clearly.`}
 					</p>
 				</FadeInStaggerTwoChildren>
 					</div>

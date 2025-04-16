@@ -3,7 +3,7 @@ import PortfolioDetails from "../../components/portfolio/single/PortfolioDetails
 function SinglePortfolio() {
 	return (
 		<>
-			<BreadCrumb title="brand reveal" />
+			<BreadCrumb title="Kutzpa" />
 			<PortfolioDetails />
 		</>
 	);

@@ -15,7 +15,7 @@ const projectsData = [
 		id: crypto.randomUUID(),
 		title: "Company Overview",
 		subtitle: "Who you are and what you do",
-		description: "A company overview video captures who you are and what you do. Perfect for your homepage, pitch decks, or social channels. It’s warm, clear, and memorable.",
+		description: "A company overview video captures who you are, what you do, and what makes you different from everyone else.",
 		img: companyOverview,
 	},
 	{

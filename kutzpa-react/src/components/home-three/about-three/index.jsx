@@ -22,8 +22,8 @@ function About() {
 								Time to add personality. We explore color palettes, animation styles, 
 								visual effects, and audio that fit your brand. We stitch it all together 
 								in an animatic (a rough animated version.) so you can envision exactly 
-								how the final video will shape up. This is a second moment for alignment 
-								and revision before we begin final production.
+								how the final video will shape up. This is a second moment for revision 
+								and feedback before we begin final production.
 							</p>
 							<div className="aximo-list-icon">
 								<ul>

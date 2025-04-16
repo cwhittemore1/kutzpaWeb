@@ -15,7 +15,6 @@ function Footer() {
 						</div>
 						<div className="col-lg-6">
 							<div className="aximo-copywright one">
-								<p> &copy; Copyright 2025, All Rights Reserved by Mthemeus</p>
 							</div>
 						</div>
 					</div>

@@ -25,7 +25,7 @@ function AboutFive() {
 								smooth handoff. If your project includes multiple versions, 
 								like social clips or alternate aspect ratios, we’ll take care 
 								of that too. Need tips on how to launch it? We’ll share 
-								implementation insights to help you make the most of your NEW video.
+								implementation guidance to help you make the most of your NEW video.
 							</p>
 							<div className="aximo-list-icon">
 								<ul>

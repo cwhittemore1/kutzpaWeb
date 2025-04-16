@@ -19,7 +19,7 @@ function AboutThree() {
 								Every great video starts with a solid story. We craft a message that’s clear, 
 								engaging, and built to stick. A storyboard is a mid-fidelity grayscale 
 								map for the visuals, pacing, and key moments. Together, this is our first moment 
-								for alignment and revision before we dive into full <b>style and art direction</b>. 
+								for revision and feedback before we dive into full <b>style and art direction</b>. 
 							</p>
 							<div className="aximo-list-icon">
 								<ul>
