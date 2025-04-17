@@ -7632,7 +7632,7 @@ img.aximo-video-circle {
 }
 .aximo-project-data3 {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	margin-top: 24px;
 }
 @media (max-width: 991px) {
@@ -7710,11 +7710,18 @@ img.aximo-video-circle {
 .aximo-project-single-thumb {
 	overflow: hidden;
 	margin-bottom: 24px;
+	display: flex;
+    justify-content: center;
 }
 @media (max-width: 991px) {
 	.aximo-project-single-thumb {
-		margin-bottom: 30px;
+		margin-bottom: 30px
 	}
+}
+
+.aximo-project-single-thumb iframe {
+	aspect-ratio: 16 / 9;
+	width: 100% !important;
 }
 
 .aximo-project-info {
@@ -8964,7 +8971,7 @@ a.aximo-connect-login img {
 .subtitle-text:after {
 	content: '}';
 	font-size: 100px;
-	margin-left: 80px;
+	margin-left: 240px;
 	margin-top: -20px;
 	position: absolute;
 }

@@ -13,7 +13,7 @@ const portfolioListData = [
 	// },
 	{
 		id: crypto.randomUUID(),
-		title: "Kutzpa",
+		title: "Kutzpa Identity",
 		description: "A dynamic reveal of Kutzpa’s brand identity, its roots, look, and personality, crafted to formally debut the visual system to the world.",
 		img: Portfolio2Img,
 	},
