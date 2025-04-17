@@ -1,5 +1,3 @@
-import Shape1Img from "../../../assets/images/v1/shape1.png";
-import Star2Img from "../../../assets/images/v1/star2.png";
 import { Link } from "react-router-dom";
 
 function FooterContent() {

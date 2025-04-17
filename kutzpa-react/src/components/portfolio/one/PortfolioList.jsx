@@ -31,7 +31,7 @@ function PortfolioList() {
 				))}
 			</div>
 
-			<div className="container py-5 coming-soon-container">
+			{/* <div className="container py-5 coming-soon-container">
 				<div className="row px-4">
 						<div className="container">
 							<p className=" coming-soon-title pb-3 px-4"><b>Upcoming projects</b></p>
@@ -61,7 +61,7 @@ function PortfolioList() {
 						</div>
 				</div>
 
-			</div>
+			</div> */}
 		</div>
 	);
 }

@@ -10648,7 +10648,7 @@ button#aximo-notified-btn {
 
 
 .coming-soon-container {
-	background-color: rgba(255,255,255,0.05);
+	background-color: rgba(225,195,255,0.05);
 	border-radius: 32px;
 }
 
@@ -10712,6 +10712,19 @@ button#aximo-notified-btn {
 
   .pb-7 {
 	padding-bottom: 5rem !important;
+  }
+
+  .overflow-hidden {
+	overflow: hidden;
+  }
+
+  .calendly-inline-widget {
+	height: 1000px !important;
+	overflow: hidden;
+  }
+
+  .pt-100 {
+padding-top: 100px;
   }
 
 /*1.4 themes css*/
