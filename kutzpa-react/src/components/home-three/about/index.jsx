@@ -2,22 +2,20 @@ import { Link } from "react-router-dom";
 import CheckImg from "../../../assets/images/v3/check.svg";
 import Shape2Img from "../../../assets/images/v3/shape2.png";
 import Thumb1Img from "../../../assets/images/v3/thumb1.png";
-import FadeInLeft from "../../animation/FadeInLeft";
+import FadeInRight from "../../animation/FadeInRight";
 import FadeInUp from "../../animation/FadeInUp";
 function About() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section aximo-section-padding6 pt-5">
 			<div className="container">
+
 				<div className="row">
-					<div className="col-lg-5">
-						<FadeInLeft className="aximo-content-thumb">
+					<div className="col-lg-5 order-lg-1 offset-lg-1">
+						<FadeInRight className="aximo-content-thumb ">
 							<img src={Thumb1Img} alt="Thumb1Img" />
-							<div className="aximo-thumb-shape1">
-								{/* <img src={Shape2Img} alt="Shape2Img" /> */}
-							</div>
-						</FadeInLeft>
+						</FadeInRight>
 					</div>
-					<div className="col-lg-6 offset-lg-1 px-4">
+					<div className="col-lg-6 px-4">
 						<div className="aximo-default-content">
 							<h2>01.</h2>
 							<h3>Consult & Strategy</h3>
@@ -27,10 +25,6 @@ function About() {
 								competitors, and gather your brand assets to start laying the groundwork for a 
 								video that’s uniquely YOU.
 							</p>
-
-							{/* What message needs to land? Who’s watching? What’s gonna make 
-							this video unforgettable? */}
-
 							<div className="aximo-list-icon">
 								<ul>
 									<li>

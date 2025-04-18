@@ -9,7 +9,7 @@ export const menuItemsData = [
 	},
 	{
 		title: "book a call",
-		url: "book-a-call",
+		url: "https://kutzpa.youcanbook.me/",
 	},
 	// {
 	// 	title: "Pages",

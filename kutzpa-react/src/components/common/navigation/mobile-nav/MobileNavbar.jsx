@@ -83,6 +83,7 @@ const MobileNavbar = ({ menuItemsData, title }) => {
 				className="mobile-nav--overlay"
 				onClick={handleOpenMobileMenu}
 			></motion.div>
+			
 		</div>
 	);
 };

@@ -18,7 +18,7 @@ function FooterContent() {
 							<Link to="/process">process</Link>
 						</li>
 						<li>
-							<Link to="/book-a-call">book a call</Link>
+							<a href="https://kutzpa.youcanbook.me/">book a call</a>
 						</li>
 					</ul>	
 				</div>	

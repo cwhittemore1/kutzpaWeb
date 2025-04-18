@@ -351,26 +351,18 @@
 }
 
 .site-menu-main .nav-link-item {
-	color: var(--heading-color);
 	font-size: 20px;
 	font-weight: 500;
 	font-style: normal;
 	font-family: "Dela Gothic One", sans-serif;
 	letter-spacing: normal;
 	position: relative;
+	border-radius: 100px;
 }
 .aximo-header1 .site-menu-main .nav-link-item {
-	color: var(--white-color);
+	color: rgba(255,255,255,1);
 }
-.aximo-header2 .site-menu-main .nav-link-item {
-	color: var(--heading-color2);
-}
-.aximo-header4 .site-menu-main .nav-link-item {
-	color: var(--heading-color3);
-}
-.aximo-header5 .site-menu-main .nav-link-item {
-	color: var(--light-color4);
-}
+
 
 @media (min-width: 992px) {
 	.site-menu-main .nav-link-item {

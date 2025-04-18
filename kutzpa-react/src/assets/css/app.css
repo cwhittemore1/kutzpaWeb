@@ -3367,7 +3367,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 .aximo-breadcrumb {
 	text-align: end;
-	padding: 195px 0 0px;
+	padding: 100px 0 0px;
 	background-color: var(--dark-bg);
 }
 @media (max-width: 991px) {
@@ -3401,7 +3401,7 @@ h1.post__title {
 
 @media (max-width: 767px) {
 	h1.post__title {
-		font-size: 64px;
+		font-size: 4rem;
 		text-align: center;
 	}
 }
@@ -5441,6 +5441,11 @@ a.aximo-service-icon:hover {
 }
 
 /* bootstrap accordion overwrite start */
+.accordion-item {
+	background-color: rgba(225,195,255, 0.05)!important;
+	color: var(--white) !important;
+}
+
 .aximo-accordion-wrap .accordion-item {
 	padding: 24px;
 	position: relative;
@@ -5501,7 +5506,6 @@ a.aximo-service-icon:hover {
 .aximo-accordion-wrap2 .accordion-item {
 	padding: 30px;
 	border-radius: 5px;
-	background-color: #ebeae4;
 	box-shadow: none;
 	border: none;
 	margin-bottom: 20px;
@@ -5524,14 +5528,15 @@ a.aximo-service-icon:hover {
 
 .aximo-accordion-wrap2 .accordion-button {
 	background: none;
-	font-size: inherit;
-	font-weight: 700;
 	color: var(--heading-color);
 	padding: 0;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
 }
 .aximo-accordion-wrap2 .accordion-body {
 	padding: 0;
 	padding-right: 65px;
+	padding-top: 24px;
 }
 @media (max-width: 991px) {
 	.aximo-accordion-wrap2 .accordion-body {
@@ -7578,7 +7583,7 @@ img.aximo-video-circle {
 }
 
 .aximo-project-one-column {
-	padding: 120px 0 50px;
+	padding: 60px 0 50px;
 }
 @media (max-width: 991px) {
 	.aximo-project-one-column {
@@ -8407,7 +8412,7 @@ a.aximo-connect-login img {
 }
 
 .aximo-section-padding2 {
-	padding: 130px 0;
+	padding: 60px 0;
 }
 @media (max-width: 991px) {
 	.aximo-section-padding2 {
@@ -10714,18 +10719,24 @@ button#aximo-notified-btn {
 	padding-bottom: 5rem !important;
   }
 
-  .overflow-hidden {
-	overflow: hidden;
-  }
+  .glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 100px;
+}
 
-  .calendly-inline-widget {
-	height: 1000px !important;
-	overflow: hidden;
-  }
 
-  .pt-100 {
-padding-top: 100px;
-  }
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
